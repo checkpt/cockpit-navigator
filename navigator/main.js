@@ -47,18 +47,11 @@ function load_hidden_file_state(nav_window) {
 	}
 }
 
-function set_last_theme_state() {
+function apply_theme(state) {
 	var toggle_switch = document.getElementById("toggle-theme");
-	var state = localStorage.getItem("houston-theme-state");
 	var icon = document.getElementById("houston-theme-icon");
 	var logo = document.getElementById("logo-45d");
-	if (state === "light") {
-		toggle_switch.checked = false;
-		document.documentElement.setAttribute("data-theme", "light");
-		icon.classList.remove("fa-moon");
-		icon.classList.add("fa-sun");
-		logo.src = "branding/logo-light.svg";
-	} else if (state === "dark") {
+	if (state === "dark") {
 		toggle_switch.checked = true;
 		document.documentElement.setAttribute("data-theme", "dark");
 		icon.classList.remove("fa-sun");
@@ -66,10 +59,17 @@ function set_last_theme_state() {
 		logo.src = "branding/logo-dark.svg";
 	} else {
 		toggle_switch.checked = false;
-		state = "light";
-		localStorage.setItem("houston-theme-state", state);
+		document.documentElement.setAttribute("data-theme", "light");
+		icon.classList.remove("fa-moon");
+		icon.classList.add("fa-sun");
 		logo.src = "branding/logo-light.svg";
 	}
+}
+
+function set_last_theme_state() {
+	var state = localStorage.getItem("shell:style") || "light";
+	apply_theme(state);
+	localStorage.setItem("houston-theme-state", state);
 }
 
 /**
@@ -77,22 +77,10 @@ function set_last_theme_state() {
  * @param {Event} e 
  */
 function switch_theme(e) {
-	var icon = document.getElementById("houston-theme-icon");
-	var logo = document.getElementById("logo-45d");
-	var state = "";
-	if (e.target.checked) {
-		state = "dark";
-		icon.classList.remove("fa-sun");
-		icon.classList.add("fa-moon");
-		logo.src = "branding/logo-dark.svg";
-	} else {
-		state = "light";
-		icon.classList.remove("fa-moon");
-		icon.classList.add("fa-sun");
-		logo.src = "branding/logo-light.svg";
-	}
-	document.documentElement.setAttribute("data-theme", state);
+	var state = e.target.checked ? "dark" : "light";
+	apply_theme(state);
 	localStorage.setItem("houston-theme-state", state);
+	localStorage.setItem("shell:style", state);
 }
 
 let nav_window = new NavWindow();
@@ -154,8 +142,17 @@ function set_up_buttons() {
 	});
 }
 
+function listen_storage_changes() {
+	window.addEventListener("storage", (e) => {
+		if (e.key === "shell:style" || e.key === "houston-theme-state") {
+			apply_theme(e.newValue);
+		}
+	});
+}
+
 async function main() {
 	set_last_theme_state();
+	listen_storage_changes();
 	load_hidden_file_state(nav_window);
 	load_item_display_state(nav_window);
 	var get_users = nav_window.get_system_users();
