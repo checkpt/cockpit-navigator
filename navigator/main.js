@@ -20,6 +20,7 @@
 import { ModalPrompt } from "./components/ModalPrompt.js";
 import { NavWindow } from "./components/NavWindow.js";
 import { NAVIGATOR_VERSION } from "./version.js";
+import { _ } from "./i18n.js";
 
 /**
  * 
@@ -132,11 +133,11 @@ function set_up_buttons() {
 	});
 	document.getElementById("nav-info-btn").addEventListener("click", () => {
 		new ModalPrompt().alert(
-			`Cockpit Navigator ${NAVIGATOR_VERSION}`,
+			cockpit.format(_("Cockpit Navigator $0"), NAVIGATOR_VERSION),
 			`<p>` +
-			`Created by <a target="_blank" href=https://www.45drives.com/?utm_source=Houston&utm_medium=UI&utm_campaign=OS-Link>45Drives</a> for Houston UI (Cockpit).<br>` +
-			`<a target="_blank" href=https://github.com/45Drives/cockpit-navigator/issues>Issue Tracker</a><br>` +
-			`<a target="_blank" href=https://github.com/45Drives/cockpit-navigator/discussions>Feedback</a><br>` +
+			cockpit.format(_("Created by $0 for Houston UI (Cockpit)."), '<a target="_blank" href=https://www.45drives.com/?utm_source=Houston&utm_medium=UI&utm_campaign=OS-Link>45Drives</a>') + `<br>` +
+			`<a target="_blank" href=https://github.com/45Drives/cockpit-navigator/issues>` + _("Issue Tracker") + `</a><br>` +
+			`<a target="_blank" href=https://github.com/45Drives/cockpit-navigator/discussions>` + _("Feedback") + `</a><br>` +
 			`</p>`
 		);
 	});
@@ -150,9 +151,100 @@ function listen_storage_changes() {
 	});
 }
 
+function translate_html() {
+	// Translate title attributes
+	var title_map = {
+		"nav-back-btn": _("Back"),
+		"nav-forward-btn": _("Forward"),
+		"nav-up-dir-btn": _("Up"),
+		"nav-refresh-btn": _("Refresh"),
+		"pwd": _("Navigation Bar"),
+		"nav-mkdir-btn": _("New Directory"),
+		"nav-touch-btn": _("New File"),
+		"nav-ln-btn": _("New Symbolic Link"),
+		"nav-upload-btn": _("Upload File(s)"),
+		"nav-cancel-edit-contents-btn": _("Cancel"),
+		"nav-continue-edit-contents-btn": _("Save"),
+		"nav-delete-btn": _("Delete"),
+		"nav-edit-properties-btn": _("Edit Properties"),
+		"nav-edit-contents-btn": _("Edit Contents"),
+		"nav-cancel-edit-btn": _("Cancel"),
+		"nav-apply-edit-btn": _("Save Changes"),
+	};
+	for (let [id, text] of Object.entries(title_map)) {
+		var elem = document.getElementById(id);
+		if (elem) elem.title = text;
+	}
+
+	// Search bar placeholder
+	var search_bar = document.getElementById("search-bar");
+	if (search_bar) {
+		search_bar.title = _("Prepend * to fuzzy search");
+		search_bar.placeholder = _("Search in Directory");
+	}
+
+	// Column headers (list view)
+	var header_map = {
+		"sort-name-btn": _("Name"),
+		"sort-mode-btn": _("Mode"),
+		"sort-owner-btn": _("Owner"),
+		"sort-group-btn": _("Group"),
+		"sort-size-btn": _("Size"),
+		"sort-modified-btn": _("Modified"),
+		"sort-created-btn": _("Created"),
+	};
+	for (let [id, text] of Object.entries(header_map)) {
+		var elem = document.getElementById(id);
+		if (elem) {
+			// Preserve sort arrow icons, replace only text node
+			var icon = elem.querySelector("i");
+			elem.textContent = text;
+			if (icon) elem.appendChild(icon);
+		}
+	}
+
+	// Property labels in edit panel
+	var property_keys = document.querySelectorAll(".nav-property-pair-key");
+	var key_translations = {
+		"Name": _("Name"),
+		"Owner": _("Owner"),
+		"Group": _("Group"),
+		"Mode": _("Mode"),
+	};
+	property_keys.forEach((el) => {
+		if (key_translations[el.textContent]) {
+			el.textContent = key_translations[el.textContent];
+		}
+	});
+
+	// Permissions grid labels
+	var grid_labels = {
+		"Read": _("Read"),
+		"Write": _("Write"),
+		"Execute": _("Execute"),
+		"Owner": _("Owner"),
+		"Group": _("Group"),
+		"Other": _("Other"),
+	};
+	document.querySelectorAll(".grid-label").forEach((el) => {
+		if (grid_labels[el.textContent]) {
+			el.textContent = grid_labels[el.textContent];
+		}
+	});
+
+	// Toggle labels
+	document.querySelectorAll('label[title="Show Hidden Files"]').forEach((el) => {
+		el.title = _("Show Hidden Files");
+	});
+	document.querySelectorAll('label[title="Toggle Dark/Light"]').forEach((el) => {
+		el.title = _("Toggle Dark/Light");
+	});
+}
+
 async function main() {
 	set_last_theme_state();
 	listen_storage_changes();
+	translate_html();
 	load_hidden_file_state(nav_window);
 	load_item_display_state(nav_window);
 	var get_users = nav_window.get_system_users();

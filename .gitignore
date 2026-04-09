@@ -11,3 +11,18 @@ packaging/focal/.debhelper
 
 # build output
 dist
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info
+*.egg
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store

@@ -1,0 +1,373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: navigator/components/FileUpload.js:62
+msgid "Uploading "
+msgstr ""
+
+#: navigator/components/FileUpload.js:144
+#: navigator/components/FileUpload.js:164
+msgid "Failed to read file: "
+msgstr ""
+
+#: navigator/components/FileUpload.js:144
+msgid "Upload of directories not supported."
+msgstr ""
+
+#: navigator/components/FileUpload.js:164
+msgid "Upload of directories and empty files not supported."
+msgstr ""
+
+#: navigator/components/ModalPrompt.js:36
+msgid "OK"
+msgstr ""
+
+#: navigator/components/ModalPrompt.js:39 navigator/main.js:166
+#: navigator/main.js:171
+msgid "Cancel"
+msgstr ""
+
+#: navigator/components/ModalPrompt.js:42
+msgid "Yes"
+msgstr ""
+
+#: navigator/components/ModalPrompt.js:45
+msgid "No"
+msgstr ""
+
+#: navigator/components/NavContextMenu.js:96
+msgid "Cannot rename system-critical paths."
+msgstr ""
+
+#: navigator/components/NavContextMenu.js:97
+msgid "If you think you need to, use the terminal."
+msgstr ""
+
+#: navigator/components/NavDragDrop.js:68
+msgid "Copy whole directory: $0?"
+msgstr ""
+
+#: navigator/components/NavDragDrop.js:153
+msgid "Conflicts found while uploading. Replace?"
+msgstr ""
+
+#: navigator/components/NavEntry.js:286 navigator/components/NavWindow.js:567
+msgid "File name can't contain `/`."
+msgstr ""
+
+#: navigator/components/NavEntry.js:287 navigator/components/NavEntry.js:293
+msgid ""
+"If you want to move the file, right click > cut then right click > paste."
+msgstr ""
+
+#: navigator/components/NavEntry.js:292
+msgid "File name can't be `..`."
+msgstr ""
+
+#: navigator/components/NavEntry.js:300
+msgid "Failed to rename."
+msgstr ""
+
+#: navigator/components/NavEntry.js:301
+msgid "File exists: "
+msgstr ""
+
+#: navigator/components/NavEntry.js:382 navigator/main.js:189
+#: navigator/main.js:212
+msgid "Mode"
+msgstr ""
+
+#: navigator/components/NavEntry.js:383 navigator/main.js:190
+#: navigator/main.js:210 navigator/main.js:225
+msgid "Owner"
+msgstr ""
+
+#: navigator/components/NavEntry.js:384 navigator/main.js:191
+#: navigator/main.js:211 navigator/main.js:226
+msgid "Group"
+msgstr ""
+
+#: navigator/components/NavEntry.js:385 navigator/main.js:192
+msgid "Size"
+msgstr ""
+
+#: navigator/components/NavEntry.js:386
+msgid "Accessed"
+msgstr ""
+
+#: navigator/components/NavEntry.js:387 navigator/main.js:193
+msgid "Modified"
+msgstr ""
+
+#: navigator/components/NavEntry.js:388 navigator/main.js:194
+msgid "Created"
+msgstr ""
+
+#: navigator/components/NavFile.js:104
+msgid "'$0' is not a text file. Open it anyway?"
+msgstr ""
+
+#: navigator/components/NavFile.js:104
+msgid "WARNING: this may lead to file corruption."
+msgstr ""
+
+#: navigator/components/NavFile.js:125 navigator/components/NavFile.js:222
+msgid "Editing "
+msgstr ""
+
+#: navigator/components/NavFile.js:171
+msgid "Link Target"
+msgstr ""
+
+#: navigator/components/NavFile.js:200
+msgid "Can't open "
+msgstr ""
+
+#: navigator/components/NavFile.js:200
+msgid " for editing."
+msgstr ""
+
+#: navigator/components/NavWindow.js:166
+#, javascript-format
+msgid "%d Directory"
+msgid_plural "%d Directories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: navigator/components/NavWindow.js:167
+#, javascript-format
+msgid "%d File"
+msgid_plural "%d Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: navigator/components/NavWindow.js:351
+msgid "selected"
+msgstr ""
+
+#: navigator/components/NavWindow.js:373 navigator/components/NavWindow.js:375
+msgid "and"
+msgstr ""
+
+#: navigator/components/NavWindow.js:380
+msgid "Warning: editing $0 can be dangerous."
+msgstr ""
+
+#: navigator/components/NavWindow.js:381 navigator/components/NavWindow.js:389
+msgid "Are you sure?"
+msgstr ""
+
+#: navigator/components/NavWindow.js:388
+msgid "Warning: editing permissions for $0 files."
+msgstr ""
+
+#: navigator/components/NavWindow.js:414
+msgid "Applying edits to:"
+msgstr ""
+
+#: navigator/components/NavWindow.js:419
+msgid "unchanged"
+msgstr ""
+
+#: navigator/components/NavWindow.js:491
+msgid "Deleting $0 files."
+msgstr ""
+
+#: navigator/components/NavWindow.js:493
+msgid "Deleting `$0`."
+msgstr ""
+
+#: navigator/components/NavWindow.js:495
+msgid "This cannot be undone. Are you sure?"
+msgstr ""
+
+#: navigator/components/NavWindow.js:511
+msgid "Creating Directory"
+msgstr ""
+
+#: navigator/components/NavWindow.js:514 navigator/components/NavWindow.js:554
+#: navigator/components/NavWindow.js:599
+msgid "Name: "
+msgstr ""
+
+#: navigator/components/NavWindow.js:523
+msgid "Directory name can't be empty."
+msgstr ""
+
+#: navigator/components/NavWindow.js:527
+msgid "Directory name can't contain `/`."
+msgstr ""
+
+#: navigator/components/NavWindow.js:551
+msgid "Creating File"
+msgstr ""
+
+#: navigator/components/NavWindow.js:563
+msgid "File name can't be empty."
+msgstr ""
+
+#: navigator/components/NavWindow.js:591
+msgid "Creating Symbolic Link"
+msgstr ""
+
+#: navigator/components/NavWindow.js:594
+msgid "Target: "
+msgstr ""
+
+#: navigator/components/NavWindow.js:608
+msgid "Link target can't be empty."
+msgstr ""
+
+#: navigator/components/NavWindow.js:613
+msgid "Link name can't be empty."
+msgstr ""
+
+#: navigator/components/NavWindow.js:617
+msgid "Link name can't contain `/`."
+msgstr ""
+
+#: navigator/components/NavWindow.js:693
+msgid "Overwrite?"
+msgstr ""
+
+#: navigator/components/NavWindow.js:717
+msgid "Paste failed."
+msgstr ""
+
+#: navigator/components/NavWindow.js:953
+msgid "Cannot $0 system-critical paths."
+msgstr ""
+
+#: navigator/components/NavWindow.js:954
+msgid ""
+"The following path(s) are very dangerous to $0: $1. If you think you need "
+"to, use the terminal."
+msgstr ""
+
+#: navigator/main.js:136
+msgid "Cockpit Navigator $0"
+msgstr ""
+
+#: navigator/main.js:138
+msgid "Created by $0 for Houston UI (Cockpit)."
+msgstr ""
+
+#: navigator/main.js:139
+msgid "Issue Tracker"
+msgstr ""
+
+#: navigator/main.js:140
+msgid "Feedback"
+msgstr ""
+
+#: navigator/main.js:157
+msgid "Back"
+msgstr ""
+
+#: navigator/main.js:158
+msgid "Forward"
+msgstr ""
+
+#: navigator/main.js:159
+msgid "Up"
+msgstr ""
+
+#: navigator/main.js:160
+msgid "Refresh"
+msgstr ""
+
+#: navigator/main.js:161
+msgid "Navigation Bar"
+msgstr ""
+
+#: navigator/main.js:162
+msgid "New Directory"
+msgstr ""
+
+#: navigator/main.js:163
+msgid "New File"
+msgstr ""
+
+#: navigator/main.js:164
+msgid "New Symbolic Link"
+msgstr ""
+
+#: navigator/main.js:165
+msgid "Upload File(s)"
+msgstr ""
+
+#: navigator/main.js:167
+msgid "Save"
+msgstr ""
+
+#: navigator/main.js:168
+msgid "Delete"
+msgstr ""
+
+#: navigator/main.js:169
+msgid "Edit Properties"
+msgstr ""
+
+#: navigator/main.js:170
+msgid "Edit Contents"
+msgstr ""
+
+#: navigator/main.js:172
+msgid "Save Changes"
+msgstr ""
+
+#: navigator/main.js:182
+msgid "Prepend * to fuzzy search"
+msgstr ""
+
+#: navigator/main.js:183
+msgid "Search in Directory"
+msgstr ""
+
+#: navigator/main.js:188 navigator/main.js:209
+msgid "Name"
+msgstr ""
+
+#: navigator/main.js:222
+msgid "Read"
+msgstr ""
+
+#: navigator/main.js:223
+msgid "Write"
+msgstr ""
+
+#: navigator/main.js:224
+msgid "Execute"
+msgstr ""
+
+#: navigator/main.js:227
+msgid "Other"
+msgstr ""
+
+#: navigator/main.js:237
+msgid "Show Hidden Files"
+msgstr ""
+
+#: navigator/main.js:240
+msgid "Toggle Dark/Light"
+msgstr ""
+
+#: navigator/manifest.json
+msgid "Navigator"
+msgstr ""
