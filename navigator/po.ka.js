@@ -1,3 +1,4 @@
+export default function(cockpit) {
 cockpit.locale({
  "": {
   "plural-forms": (n) => EXPRESSION,
@@ -5,3 +6,4 @@ cockpit.locale({
   "language-direction": "ltr"
  }
 });
+};

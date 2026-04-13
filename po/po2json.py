@@ -123,7 +123,7 @@ def get_plural_expr(header_val):
 
 
 def po_to_js(po_path, js_path, manifest_keys=None):
-    """Convert a .po file to cockpit po.js format.
+    """Convert a .po file to cockpit po.js format (ES module).
 
     If manifest_keys is set, only include entries whose msgid is in that set.
     If manifest_keys is None, include all entries.
@@ -140,6 +140,7 @@ def po_to_js(po_path, js_path, manifest_keys=None):
         entries = [(c, m, mp, ms) for c, m, mp, ms in entries if m in manifest_keys]
 
     chunks = []
+    chunks.append("export default function(cockpit) {\n")
     chunks.append("cockpit.locale(")
     chunks.append("{\n")
     chunks.append(' "": {\n')
@@ -158,6 +159,7 @@ def po_to_js(po_path, js_path, manifest_keys=None):
 
     chunks.append("\n}")
     chunks.append(");\n")
+    chunks.append("};\n")
 
     with open(js_path, "w", encoding="utf-8") as fh:
         fh.write("".join(chunks))

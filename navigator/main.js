@@ -241,7 +241,27 @@ function translate_html() {
 	});
 }
 
+async function load_locale() {
+	var lang = null;
+	var match = document.cookie.match(/(?:^|;\s*)CockpitLang=([a-zA-Z_]+)/);
+	if (match) {
+		lang = match[1];
+	}
+	if (!lang && cockpit.language && cockpit.language !== "en") {
+		lang = cockpit.language;
+	}
+	if (lang && lang !== "en" && /^[a-zA-Z_]+$/.test(lang)) {
+		try {
+			var mod = await import("./po." + lang + ".js");
+			mod.default(cockpit);
+		} catch (e) {
+			console.warn("Could not load translations for " + lang, e);
+		}
+	}
+}
+
 async function main() {
+	await load_locale();
 	set_last_theme_state();
 	listen_storage_changes();
 	translate_html();
