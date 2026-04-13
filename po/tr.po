@@ -14,353 +14,356 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);
+"
 
 #: navigator/components/FileUpload.js
 msgid "Uploading "
-msgstr ""
+msgstr "Yükleniyor "
 
 #: navigator/components/FileUpload.js
 msgid "Failed to read file: "
-msgstr ""
+msgstr "Dosya okunamadı: "
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories not supported."
-msgstr ""
+msgstr "Dizin yükleme desteklenmiyor."
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories and empty files not supported."
-msgstr ""
+msgstr "Dizin ve boş dosya yükleme desteklenmiyor."
 
 #: navigator/components/ModalPrompt.js
 msgid "OK"
-msgstr ""
+msgstr "Tamam"
 
 #: navigator/components/ModalPrompt.js navigator/main.js
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #: navigator/components/ModalPrompt.js
 msgid "Yes"
-msgstr ""
+msgstr "Evet"
 
 #: navigator/components/ModalPrompt.js
 msgid "No"
-msgstr ""
+msgstr "Hayır"
 
 #: navigator/components/NavContextMenu.js
 msgid "Cannot rename system-critical paths."
-msgstr ""
+msgstr "Sistem açısından kritik yollar yeniden adlandırılamaz."
 
 #: navigator/components/NavContextMenu.js
 msgid "If you think you need to, use the terminal."
-msgstr ""
+msgstr "Gerekli olduğunu düşünüyorsanız terminali kullanın."
 
 #: navigator/components/NavDragDrop.js
 msgid "Copy whole directory: $0?"
-msgstr ""
+msgstr "Tüm dizin kopyalansın mı: $0?"
 
 #: navigator/components/NavDragDrop.js
 msgid "Conflicts found while uploading. Replace?"
-msgstr ""
+msgstr "Yükleme sırasında çakışmalar bulundu. Değiştirilsin mi?"
 
 #: navigator/components/NavEntry.js navigator/components/NavWindow.js
 msgid "File name can't contain `/`."
-msgstr ""
+msgstr "Dosya adı `/` içeremez."
 
 #: navigator/components/NavEntry.js
 msgid ""
 "If you want to move the file, right click > cut then right click > paste."
-msgstr ""
+msgstr "Dosyayı taşımak istiyorsanız, sağ tıklayın > kes, ardından sağ tıklayın > yapıştır."
 
 #: navigator/components/NavEntry.js
 msgid "File name can't be `..`."
-msgstr ""
+msgstr "Dosya adı `..` olamaz."
 
 #: navigator/components/NavEntry.js
 msgid "Failed to rename."
-msgstr ""
+msgstr "Yeniden adlandırma başarısız."
 
 #: navigator/components/NavEntry.js
 msgid "File exists: "
-msgstr ""
+msgstr "Dosya mevcut: "
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Mode"
-msgstr ""
+msgstr "Mod"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Owner"
-msgstr ""
+msgstr "Sahip"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Size"
-msgstr ""
+msgstr "Boyut"
 
 #: navigator/components/NavEntry.js
 msgid "Accessed"
-msgstr ""
+msgstr "Son erişim"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Modified"
-msgstr ""
+msgstr "Değiştirilme"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Created"
-msgstr ""
+msgstr "Oluşturulma"
 
 #: navigator/components/NavFile.js
 msgid "'$0' is not a text file. Open it anyway?"
-msgstr ""
+msgstr "'$0' bir metin dosyası değil. Yine de açılsın mı?"
 
 #: navigator/components/NavFile.js
 msgid "WARNING: this may lead to file corruption."
-msgstr ""
+msgstr "UYARI: bu dosya bozulmasına yol açabilir."
 
 #: navigator/components/NavFile.js
 msgid "Editing "
-msgstr ""
+msgstr "Düzenleniyor "
 
 #: navigator/components/NavFile.js
 msgid "Link Target"
-msgstr ""
+msgstr "Bağlantı hedefi"
 
 #: navigator/components/NavFile.js
 msgid "Can't open "
-msgstr ""
+msgstr "Açılamıyor "
 
 #: navigator/components/NavFile.js
 msgid " for editing."
-msgstr ""
+msgstr " düzenleme için."
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d Directory"
 msgid_plural "%d Directories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Dizin"
+msgstr[1] "%d Dizin"
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d File"
 msgid_plural "%d Files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Dosya"
+msgstr[1] "%d Dosya"
 
 #: navigator/components/NavWindow.js
 msgid "selected"
-msgstr ""
+msgstr "seçili"
 
 #: navigator/components/NavWindow.js
 msgid "and"
-msgstr ""
+msgstr "ve"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing $0 can be dangerous."
-msgstr ""
+msgstr "Uyarı: $0 düzenlemek tehlikeli olabilir."
 
 #: navigator/components/NavWindow.js
 msgid "Are you sure?"
-msgstr ""
+msgstr "Emin misiniz?"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing permissions for $0 files."
-msgstr ""
+msgstr "Uyarı: $0 dosyanın izinleri düzenleniyor."
 
 #: navigator/components/NavWindow.js
 msgid "Applying edits to:"
-msgstr ""
+msgstr "Değişiklikler uygulanıyor:"
 
 #: navigator/components/NavWindow.js
 msgid "unchanged"
-msgstr ""
+msgstr "değiştirilmedi"
 
 #: navigator/components/NavWindow.js
 msgid "Deleting $0 files."
-msgstr ""
+msgstr "$0 dosya siliniyor."
 
 #: navigator/components/NavWindow.js
 msgid "Deleting `$0`."
-msgstr ""
+msgstr "`$0` siliniyor."
 
 #: navigator/components/NavWindow.js
 msgid "This cannot be undone. Are you sure?"
-msgstr ""
+msgstr "Bu geri alınamaz. Emin misiniz?"
 
 #: navigator/components/NavWindow.js
 msgid "Creating Directory"
-msgstr ""
+msgstr "Dizin Oluşturma"
 
 #: navigator/components/NavWindow.js
 msgid "Name: "
-msgstr ""
+msgstr "Ad: "
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't be empty."
-msgstr ""
+msgstr "Dizin adı boş olamaz."
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't contain `/`."
-msgstr ""
+msgstr "Dizin adı `/` içeremez."
 
 #: navigator/components/NavWindow.js
 msgid "Creating File"
-msgstr ""
+msgstr "Dosya Oluşturma"
 
 #: navigator/components/NavWindow.js
 msgid "File name can't be empty."
-msgstr ""
+msgstr "Dosya adı boş olamaz."
 
 #: navigator/components/NavWindow.js
 msgid "Creating Symbolic Link"
-msgstr ""
+msgstr "Sembolik Bağlantı Oluşturma"
 
 #: navigator/components/NavWindow.js
 msgid "Target: "
-msgstr ""
+msgstr "Hedef: "
 
 #: navigator/components/NavWindow.js
 msgid "Link target can't be empty."
-msgstr ""
+msgstr "Bağlantı hedefi boş olamaz."
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't be empty."
-msgstr ""
+msgstr "Bağlantı adı boş olamaz."
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't contain `/`."
-msgstr ""
+msgstr "Bağlantı adı `/` içeremez."
 
 #: navigator/components/NavWindow.js
 msgid "Overwrite?"
-msgstr ""
+msgstr "Üzerine yazılsın mı?"
 
 #: navigator/components/NavWindow.js
 msgid "Paste failed."
-msgstr ""
+msgstr "Yapıştırma başarısız."
 
 #: navigator/components/NavWindow.js
 msgid "Cannot $0 system-critical paths."
-msgstr ""
+msgstr "Sistem açısından kritik yollar $0 yapılamaz."
 
 #: navigator/components/NavWindow.js
 msgid ""
 "The following path(s) are very dangerous to $0: $1. If you think you need "
 "to, use the terminal."
 msgstr ""
+"Şu yollar $0 için çok tehlikelidir: $1. Gerekli olduğunu "
+"düşünüyorsanız terminali kullanın."
 
 #: navigator/main.js
 msgid "Cockpit Navigator $0"
-msgstr ""
+msgstr "Cockpit Navigator $0"
 
 #: navigator/main.js
 msgid "Created by $0 for Houston UI (Cockpit)."
-msgstr ""
+msgstr "$0 tarafından Houston UI (Cockpit) için oluşturuldu."
 
 #: navigator/main.js
 msgid "Issue Tracker"
-msgstr ""
+msgstr "Sorun Takibi"
 
 #: navigator/main.js
 msgid "Feedback"
-msgstr ""
+msgstr "Geri Bildirim"
 
 #: navigator/main.js
 msgid "Back"
-msgstr ""
+msgstr "Geri"
 
 #: navigator/main.js
 msgid "Forward"
-msgstr ""
+msgstr "İleri"
 
 #: navigator/main.js
 msgid "Up"
-msgstr ""
+msgstr "Yukarı"
 
 #: navigator/main.js
 msgid "Refresh"
-msgstr ""
+msgstr "Yenile"
 
 #: navigator/main.js
 msgid "Navigation Bar"
-msgstr ""
+msgstr "Gezinti Çubuğu"
 
 #: navigator/main.js
 msgid "New Directory"
-msgstr ""
+msgstr "Yeni Dizin"
 
 #: navigator/main.js
 msgid "New File"
-msgstr ""
+msgstr "Yeni Dosya"
 
 #: navigator/main.js
 msgid "New Symbolic Link"
-msgstr ""
+msgstr "Yeni Sembolik Bağlantı"
 
 #: navigator/main.js
 msgid "Upload File(s)"
-msgstr ""
+msgstr "Dosya Yükle"
 
 #: navigator/main.js
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #: navigator/main.js
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 #: navigator/main.js
 msgid "Edit Properties"
-msgstr ""
+msgstr "Özellikleri Düzenle"
 
 #: navigator/main.js
 msgid "Edit Contents"
-msgstr ""
+msgstr "İçeriği Düzenle"
 
 #: navigator/main.js
 msgid "Save Changes"
-msgstr ""
+msgstr "Değişiklikleri Kaydet"
 
 #: navigator/main.js
 msgid "Prepend * to fuzzy search"
-msgstr ""
+msgstr "Bulanık arama için * ekleyin"
 
 #: navigator/main.js
 msgid "Search in Directory"
-msgstr ""
+msgstr "Dizinde Ara"
 
 #: navigator/main.js
 msgid "Name"
-msgstr ""
+msgstr "Ad"
 
 #: navigator/main.js
 msgid "Read"
-msgstr ""
+msgstr "Okuma"
 
 #: navigator/main.js
 msgid "Write"
-msgstr ""
+msgstr "Yazma"
 
 #: navigator/main.js
 msgid "Execute"
-msgstr ""
+msgstr "Çalıştırma"
 
 #: navigator/main.js
 msgid "Other"
-msgstr ""
+msgstr "Diğer"
 
 #: navigator/main.js
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "Gizli Dosyaları Göster"
 
 #: navigator/main.js
 msgid "Toggle Dark/Light"
-msgstr ""
+msgstr "Koyu/Açık Geçiş"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr ""
+msgstr "Navigator"

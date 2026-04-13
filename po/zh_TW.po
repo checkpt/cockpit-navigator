@@ -14,353 +14,352 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;
+"
 
 #: navigator/components/FileUpload.js
 msgid "Uploading "
-msgstr ""
+msgstr "正在上傳 "
 
 #: navigator/components/FileUpload.js
 msgid "Failed to read file: "
-msgstr ""
+msgstr "讀取檔案失敗："
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories not supported."
-msgstr ""
+msgstr "不支援上傳目錄。"
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories and empty files not supported."
-msgstr ""
+msgstr "不支援上傳目錄和空檔案。"
 
 #: navigator/components/ModalPrompt.js
 msgid "OK"
-msgstr ""
+msgstr "確定"
 
 #: navigator/components/ModalPrompt.js navigator/main.js
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: navigator/components/ModalPrompt.js
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: navigator/components/ModalPrompt.js
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: navigator/components/NavContextMenu.js
 msgid "Cannot rename system-critical paths."
-msgstr ""
+msgstr "無法重新命名系統關鍵路徑。"
 
 #: navigator/components/NavContextMenu.js
 msgid "If you think you need to, use the terminal."
-msgstr ""
+msgstr "如果您認為有必要，請使用終端機。"
 
 #: navigator/components/NavDragDrop.js
 msgid "Copy whole directory: $0?"
-msgstr ""
+msgstr "複製整個目錄：$0？"
 
 #: navigator/components/NavDragDrop.js
 msgid "Conflicts found while uploading. Replace?"
-msgstr ""
+msgstr "上傳時發現衝突。是否取代？"
 
 #: navigator/components/NavEntry.js navigator/components/NavWindow.js
 msgid "File name can't contain `/`."
-msgstr ""
+msgstr "檔案名稱不能包含「/」。"
 
 #: navigator/components/NavEntry.js
 msgid ""
 "If you want to move the file, right click > cut then right click > paste."
-msgstr ""
+msgstr "如果要移動檔案，請按右鍵 > 剪下，然後按右鍵 > 貼上。"
 
 #: navigator/components/NavEntry.js
 msgid "File name can't be `..`."
-msgstr ""
+msgstr "檔案名稱不能是「..」。"
 
 #: navigator/components/NavEntry.js
 msgid "Failed to rename."
-msgstr ""
+msgstr "重新命名失敗。"
 
 #: navigator/components/NavEntry.js
 msgid "File exists: "
-msgstr ""
+msgstr "檔案已存在："
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Mode"
-msgstr ""
+msgstr "權限"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Owner"
-msgstr ""
+msgstr "擁有者"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Group"
-msgstr ""
+msgstr "群組"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Size"
-msgstr ""
+msgstr "大小"
 
 #: navigator/components/NavEntry.js
 msgid "Accessed"
-msgstr ""
+msgstr "最後存取"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Modified"
-msgstr ""
+msgstr "修改時間"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Created"
-msgstr ""
+msgstr "建立時間"
 
 #: navigator/components/NavFile.js
 msgid "'$0' is not a text file. Open it anyway?"
-msgstr ""
+msgstr "「$0」不是文字檔案。仍然開啟嗎？"
 
 #: navigator/components/NavFile.js
 msgid "WARNING: this may lead to file corruption."
-msgstr ""
+msgstr "警告：這可能導致檔案損毀。"
 
 #: navigator/components/NavFile.js
 msgid "Editing "
-msgstr ""
+msgstr "正在編輯 "
 
 #: navigator/components/NavFile.js
 msgid "Link Target"
-msgstr ""
+msgstr "連結目標"
 
 #: navigator/components/NavFile.js
 msgid "Can't open "
-msgstr ""
+msgstr "無法開啟 "
 
 #: navigator/components/NavFile.js
 msgid " for editing."
-msgstr ""
+msgstr " 進行編輯。"
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d Directory"
 msgid_plural "%d Directories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d 個目錄"
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d File"
 msgid_plural "%d Files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d 個檔案"
 
 #: navigator/components/NavWindow.js
 msgid "selected"
-msgstr ""
+msgstr "已選取"
 
 #: navigator/components/NavWindow.js
 msgid "and"
-msgstr ""
+msgstr "和"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing $0 can be dangerous."
-msgstr ""
+msgstr "警告：編輯 $0 可能很危險。"
 
 #: navigator/components/NavWindow.js
 msgid "Are you sure?"
-msgstr ""
+msgstr "您確定嗎？"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing permissions for $0 files."
-msgstr ""
+msgstr "警告：正在編輯 $0 個檔案的權限。"
 
 #: navigator/components/NavWindow.js
 msgid "Applying edits to:"
-msgstr ""
+msgstr "正在套用變更："
 
 #: navigator/components/NavWindow.js
 msgid "unchanged"
-msgstr ""
+msgstr "未變更"
 
 #: navigator/components/NavWindow.js
 msgid "Deleting $0 files."
-msgstr ""
+msgstr "正在刪除 $0 個檔案。"
 
 #: navigator/components/NavWindow.js
 msgid "Deleting `$0`."
-msgstr ""
+msgstr "正在刪除「$0」。"
 
 #: navigator/components/NavWindow.js
 msgid "This cannot be undone. Are you sure?"
-msgstr ""
+msgstr "此操作無法復原。您確定嗎？"
 
 #: navigator/components/NavWindow.js
 msgid "Creating Directory"
-msgstr ""
+msgstr "建立目錄"
 
 #: navigator/components/NavWindow.js
 msgid "Name: "
-msgstr ""
+msgstr "名稱："
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't be empty."
-msgstr ""
+msgstr "目錄名稱不能為空。"
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't contain `/`."
-msgstr ""
+msgstr "目錄名稱不能包含「/」。"
 
 #: navigator/components/NavWindow.js
 msgid "Creating File"
-msgstr ""
+msgstr "建立檔案"
 
 #: navigator/components/NavWindow.js
 msgid "File name can't be empty."
-msgstr ""
+msgstr "檔案名稱不能為空。"
 
 #: navigator/components/NavWindow.js
 msgid "Creating Symbolic Link"
-msgstr ""
+msgstr "建立符號連結"
 
 #: navigator/components/NavWindow.js
 msgid "Target: "
-msgstr ""
+msgstr "目標："
 
 #: navigator/components/NavWindow.js
 msgid "Link target can't be empty."
-msgstr ""
+msgstr "連結目標不能為空。"
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't be empty."
-msgstr ""
+msgstr "連結名稱不能為空。"
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't contain `/`."
-msgstr ""
+msgstr "連結名稱不能包含「/」。"
 
 #: navigator/components/NavWindow.js
 msgid "Overwrite?"
-msgstr ""
+msgstr "是否覆蓋？"
 
 #: navigator/components/NavWindow.js
 msgid "Paste failed."
-msgstr ""
+msgstr "貼上失敗。"
 
 #: navigator/components/NavWindow.js
 msgid "Cannot $0 system-critical paths."
-msgstr ""
+msgstr "無法 $0 系統關鍵路徑。"
 
 #: navigator/components/NavWindow.js
 msgid ""
 "The following path(s) are very dangerous to $0: $1. If you think you need "
 "to, use the terminal."
-msgstr ""
+msgstr "以下路徑對 $0 非常危險：$1。如果您認為有必要，請使用終端機。"
 
 #: navigator/main.js
 msgid "Cockpit Navigator $0"
-msgstr ""
+msgstr "Cockpit Navigator $0"
 
 #: navigator/main.js
 msgid "Created by $0 for Houston UI (Cockpit)."
-msgstr ""
+msgstr "由 $0 為 Houston UI (Cockpit) 建立。"
 
 #: navigator/main.js
 msgid "Issue Tracker"
-msgstr ""
+msgstr "問題追蹤"
 
 #: navigator/main.js
 msgid "Feedback"
-msgstr ""
+msgstr "意見回饋"
 
 #: navigator/main.js
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #: navigator/main.js
 msgid "Forward"
-msgstr ""
+msgstr "前進"
 
 #: navigator/main.js
 msgid "Up"
-msgstr ""
+msgstr "上層"
 
 #: navigator/main.js
 msgid "Refresh"
-msgstr ""
+msgstr "重新整理"
 
 #: navigator/main.js
 msgid "Navigation Bar"
-msgstr ""
+msgstr "導覽列"
 
 #: navigator/main.js
 msgid "New Directory"
-msgstr ""
+msgstr "新建目錄"
 
 #: navigator/main.js
 msgid "New File"
-msgstr ""
+msgstr "新建檔案"
 
 #: navigator/main.js
 msgid "New Symbolic Link"
-msgstr ""
+msgstr "新建符號連結"
 
 #: navigator/main.js
 msgid "Upload File(s)"
-msgstr ""
+msgstr "上傳檔案"
 
 #: navigator/main.js
 msgid "Save"
-msgstr ""
+msgstr "儲存"
 
 #: navigator/main.js
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: navigator/main.js
 msgid "Edit Properties"
-msgstr ""
+msgstr "編輯屬性"
 
 #: navigator/main.js
 msgid "Edit Contents"
-msgstr ""
+msgstr "編輯內容"
 
 #: navigator/main.js
 msgid "Save Changes"
-msgstr ""
+msgstr "儲存變更"
 
 #: navigator/main.js
 msgid "Prepend * to fuzzy search"
-msgstr ""
+msgstr "新增 * 進行模糊搜尋"
 
 #: navigator/main.js
 msgid "Search in Directory"
-msgstr ""
+msgstr "在目錄中搜尋"
 
 #: navigator/main.js
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: navigator/main.js
 msgid "Read"
-msgstr ""
+msgstr "讀取"
 
 #: navigator/main.js
 msgid "Write"
-msgstr ""
+msgstr "寫入"
 
 #: navigator/main.js
 msgid "Execute"
-msgstr ""
+msgstr "執行"
 
 #: navigator/main.js
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
 #: navigator/main.js
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "顯示隱藏檔案"
 
 #: navigator/main.js
 msgid "Toggle Dark/Light"
-msgstr ""
+msgstr "切換深色/淺色"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr ""
+msgstr "Navigator"

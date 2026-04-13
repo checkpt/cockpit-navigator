@@ -14,351 +14,354 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=1; plural=0;
+"
 
 #: navigator/components/FileUpload.js
 msgid "Uploading "
-msgstr ""
+msgstr "アップロード中 "
 
 #: navigator/components/FileUpload.js
 msgid "Failed to read file: "
-msgstr ""
+msgstr "ファイルの読み取りに失敗しました: "
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories not supported."
-msgstr ""
+msgstr "ディレクトリのアップロードはサポートされていません。"
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories and empty files not supported."
-msgstr ""
+msgstr "ディレクトリと空ファイルのアップロードはサポートされていません。"
 
 #: navigator/components/ModalPrompt.js
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: navigator/components/ModalPrompt.js navigator/main.js
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: navigator/components/ModalPrompt.js
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: navigator/components/ModalPrompt.js
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: navigator/components/NavContextMenu.js
 msgid "Cannot rename system-critical paths."
-msgstr ""
+msgstr "システム重要パスの名前を変更できません。"
 
 #: navigator/components/NavContextMenu.js
 msgid "If you think you need to, use the terminal."
-msgstr ""
+msgstr "必要だと思う場合は、ターミナルを使用してください。"
 
 #: navigator/components/NavDragDrop.js
 msgid "Copy whole directory: $0?"
-msgstr ""
+msgstr "ディレクトリ全体をコピーしますか: $0?"
 
 #: navigator/components/NavDragDrop.js
 msgid "Conflicts found while uploading. Replace?"
-msgstr ""
+msgstr "アップロード中に競合が見つかりました。置き換えますか？"
 
 #: navigator/components/NavEntry.js navigator/components/NavWindow.js
 msgid "File name can't contain `/`."
-msgstr ""
+msgstr "ファイル名に「/」を含めることはできません。"
 
 #: navigator/components/NavEntry.js
 msgid ""
 "If you want to move the file, right click > cut then right click > paste."
-msgstr ""
+msgstr "ファイルを移動するには、右クリック > 切り取り、次に右クリック > 貼り付け。"
 
 #: navigator/components/NavEntry.js
 msgid "File name can't be `..`."
-msgstr ""
+msgstr "ファイル名を「..」にすることはできません。"
 
 #: navigator/components/NavEntry.js
 msgid "Failed to rename."
-msgstr ""
+msgstr "名前の変更に失敗しました。"
 
 #: navigator/components/NavEntry.js
 msgid "File exists: "
-msgstr ""
+msgstr "ファイルが存在します: "
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Mode"
-msgstr ""
+msgstr "モード"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Owner"
-msgstr ""
+msgstr "所有者"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Group"
-msgstr ""
+msgstr "グループ"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Size"
-msgstr ""
+msgstr "サイズ"
 
 #: navigator/components/NavEntry.js
 msgid "Accessed"
-msgstr ""
+msgstr "最終アクセス"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Modified"
-msgstr ""
+msgstr "更新日時"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Created"
-msgstr ""
+msgstr "作成日時"
 
 #: navigator/components/NavFile.js
 msgid "'$0' is not a text file. Open it anyway?"
-msgstr ""
+msgstr "「$0」はテキストファイルではありません。それでも開きますか？"
 
 #: navigator/components/NavFile.js
 msgid "WARNING: this may lead to file corruption."
-msgstr ""
+msgstr "警告: ファイルが破損する可能性があります。"
 
 #: navigator/components/NavFile.js
 msgid "Editing "
-msgstr ""
+msgstr "編集中 "
 
 #: navigator/components/NavFile.js
 msgid "Link Target"
-msgstr ""
+msgstr "リンク先"
 
 #: navigator/components/NavFile.js
 msgid "Can't open "
-msgstr ""
+msgstr "開けません "
 
 #: navigator/components/NavFile.js
 msgid " for editing."
-msgstr ""
+msgstr " を編集用に。"
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d Directory"
 msgid_plural "%d Directories"
-msgstr[0] ""
+msgstr[0] "%d ディレクトリ"
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d File"
 msgid_plural "%d Files"
-msgstr[0] ""
+msgstr[0] "%d ファイル"
 
 #: navigator/components/NavWindow.js
 msgid "selected"
-msgstr ""
+msgstr "選択済み"
 
 #: navigator/components/NavWindow.js
 msgid "and"
-msgstr ""
+msgstr "と"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing $0 can be dangerous."
-msgstr ""
+msgstr "警告: $0 の編集は危険な場合があります。"
 
 #: navigator/components/NavWindow.js
 msgid "Are you sure?"
-msgstr ""
+msgstr "よろしいですか？"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing permissions for $0 files."
-msgstr ""
+msgstr "警告: $0 ファイルの権限を編集中。"
 
 #: navigator/components/NavWindow.js
 msgid "Applying edits to:"
-msgstr ""
+msgstr "変更を適用中:"
 
 #: navigator/components/NavWindow.js
 msgid "unchanged"
-msgstr ""
+msgstr "変更なし"
 
 #: navigator/components/NavWindow.js
 msgid "Deleting $0 files."
-msgstr ""
+msgstr "$0 ファイルを削除中。"
 
 #: navigator/components/NavWindow.js
 msgid "Deleting `$0`."
-msgstr ""
+msgstr "「$0」を削除中。"
 
 #: navigator/components/NavWindow.js
 msgid "This cannot be undone. Are you sure?"
-msgstr ""
+msgstr "この操作は元に戻せません。よろしいですか？"
 
 #: navigator/components/NavWindow.js
 msgid "Creating Directory"
-msgstr ""
+msgstr "ディレクトリの作成"
 
 #: navigator/components/NavWindow.js
 msgid "Name: "
-msgstr ""
+msgstr "名前: "
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't be empty."
-msgstr ""
+msgstr "ディレクトリ名を空にすることはできません。"
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't contain `/`."
-msgstr ""
+msgstr "ディレクトリ名に「/」を含めることはできません。"
 
 #: navigator/components/NavWindow.js
 msgid "Creating File"
-msgstr ""
+msgstr "ファイルの作成"
 
 #: navigator/components/NavWindow.js
 msgid "File name can't be empty."
-msgstr ""
+msgstr "ファイル名を空にすることはできません。"
 
 #: navigator/components/NavWindow.js
 msgid "Creating Symbolic Link"
-msgstr ""
+msgstr "シンボリックリンクの作成"
 
 #: navigator/components/NavWindow.js
 msgid "Target: "
-msgstr ""
+msgstr "ターゲット: "
 
 #: navigator/components/NavWindow.js
 msgid "Link target can't be empty."
-msgstr ""
+msgstr "リンク先を空にすることはできません。"
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't be empty."
-msgstr ""
+msgstr "リンク名を空にすることはできません。"
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't contain `/`."
-msgstr ""
+msgstr "リンク名に「/」を含めることはできません。"
 
 #: navigator/components/NavWindow.js
 msgid "Overwrite?"
-msgstr ""
+msgstr "上書きしますか？"
 
 #: navigator/components/NavWindow.js
 msgid "Paste failed."
-msgstr ""
+msgstr "貼り付けに失敗しました。"
 
 #: navigator/components/NavWindow.js
 msgid "Cannot $0 system-critical paths."
-msgstr ""
+msgstr "システム重要パスを$0できません。"
 
 #: navigator/components/NavWindow.js
 msgid ""
 "The following path(s) are very dangerous to $0: $1. If you think you need "
 "to, use the terminal."
 msgstr ""
+"次のパスは $0 にとって非常に危険です: $1。必要だと思う場合は、"
+"ターミナルを使用してください。"
 
 #: navigator/main.js
 msgid "Cockpit Navigator $0"
-msgstr ""
+msgstr "Cockpit Navigator $0"
 
 #: navigator/main.js
 msgid "Created by $0 for Houston UI (Cockpit)."
-msgstr ""
+msgstr "$0 が Houston UI (Cockpit) 用に作成。"
 
 #: navigator/main.js
 msgid "Issue Tracker"
-msgstr ""
+msgstr "課題トラッカー"
 
 #: navigator/main.js
 msgid "Feedback"
-msgstr ""
+msgstr "フィードバック"
 
 #: navigator/main.js
 msgid "Back"
-msgstr ""
+msgstr "戻る"
 
 #: navigator/main.js
 msgid "Forward"
-msgstr ""
+msgstr "進む"
 
 #: navigator/main.js
 msgid "Up"
-msgstr ""
+msgstr "上へ"
 
 #: navigator/main.js
 msgid "Refresh"
-msgstr ""
+msgstr "更新"
 
 #: navigator/main.js
 msgid "Navigation Bar"
-msgstr ""
+msgstr "ナビゲーションバー"
 
 #: navigator/main.js
 msgid "New Directory"
-msgstr ""
+msgstr "新規ディレクトリ"
 
 #: navigator/main.js
 msgid "New File"
-msgstr ""
+msgstr "新規ファイル"
 
 #: navigator/main.js
 msgid "New Symbolic Link"
-msgstr ""
+msgstr "新規シンボリックリンク"
 
 #: navigator/main.js
 msgid "Upload File(s)"
-msgstr ""
+msgstr "ファイルをアップロード"
 
 #: navigator/main.js
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: navigator/main.js
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 #: navigator/main.js
 msgid "Edit Properties"
-msgstr ""
+msgstr "プロパティを編集"
 
 #: navigator/main.js
 msgid "Edit Contents"
-msgstr ""
+msgstr "内容を編集"
 
 #: navigator/main.js
 msgid "Save Changes"
-msgstr ""
+msgstr "変更を保存"
 
 #: navigator/main.js
 msgid "Prepend * to fuzzy search"
-msgstr ""
+msgstr "あいまい検索には * を先頭に付加"
 
 #: navigator/main.js
 msgid "Search in Directory"
-msgstr ""
+msgstr "ディレクトリ内を検索"
 
 #: navigator/main.js
 msgid "Name"
-msgstr ""
+msgstr "名前"
 
 #: navigator/main.js
 msgid "Read"
-msgstr ""
+msgstr "読み取り"
 
 #: navigator/main.js
 msgid "Write"
-msgstr ""
+msgstr "書き込み"
 
 #: navigator/main.js
 msgid "Execute"
-msgstr ""
+msgstr "実行"
 
 #: navigator/main.js
 msgid "Other"
-msgstr ""
+msgstr "その他"
 
 #: navigator/main.js
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "隠しファイルを表示"
 
 #: navigator/main.js
 msgid "Toggle Dark/Light"
-msgstr ""
+msgstr "ダーク/ライト切替"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr ""
+msgstr "Navigator"

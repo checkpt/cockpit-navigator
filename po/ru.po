@@ -19,351 +19,353 @@ msgstr ""
 
 #: navigator/components/FileUpload.js
 msgid "Uploading "
-msgstr ""
+msgstr "Загрузка "
 
 #: navigator/components/FileUpload.js
 msgid "Failed to read file: "
-msgstr ""
+msgstr "Не удалось прочитать файл: "
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories not supported."
-msgstr ""
+msgstr "Загрузка каталогов не поддерживается."
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories and empty files not supported."
-msgstr ""
+msgstr "Загрузка каталогов и пустых файлов не поддерживается."
 
 #: navigator/components/ModalPrompt.js
 msgid "OK"
-msgstr ""
+msgstr "ОК"
 
 #: navigator/components/ModalPrompt.js navigator/main.js
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #: navigator/components/ModalPrompt.js
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: navigator/components/ModalPrompt.js
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: navigator/components/NavContextMenu.js
 msgid "Cannot rename system-critical paths."
-msgstr ""
+msgstr "Невозможно переименовать системные критические пути."
 
 #: navigator/components/NavContextMenu.js
 msgid "If you think you need to, use the terminal."
-msgstr ""
+msgstr "Если считаете, что это необходимо, используйте терминал."
 
 #: navigator/components/NavDragDrop.js
 msgid "Copy whole directory: $0?"
-msgstr ""
+msgstr "Скопировать весь каталог: $0?"
 
 #: navigator/components/NavDragDrop.js
 msgid "Conflicts found while uploading. Replace?"
-msgstr ""
+msgstr "Обнаружены конфликты при загрузке. Заменить?"
 
 #: navigator/components/NavEntry.js navigator/components/NavWindow.js
 msgid "File name can't contain `/`."
-msgstr ""
+msgstr "Имя файла не может содержать `/`."
 
 #: navigator/components/NavEntry.js
 msgid ""
 "If you want to move the file, right click > cut then right click > paste."
-msgstr ""
+msgstr "Чтобы переместить файл, нажмите правой кнопкой > вырезать, затем правой кнопкой > вставить."
 
 #: navigator/components/NavEntry.js
 msgid "File name can't be `..`."
-msgstr ""
+msgstr "Имя файла не может быть `..`."
 
 #: navigator/components/NavEntry.js
 msgid "Failed to rename."
-msgstr ""
+msgstr "Не удалось переименовать."
 
 #: navigator/components/NavEntry.js
 msgid "File exists: "
-msgstr ""
+msgstr "Файл существует: "
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Mode"
-msgstr ""
+msgstr "Режим"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Owner"
-msgstr ""
+msgstr "Владелец"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Group"
-msgstr ""
+msgstr "Группа"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 #: navigator/components/NavEntry.js
 msgid "Accessed"
-msgstr ""
+msgstr "Последний доступ"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Modified"
-msgstr ""
+msgstr "Изменён"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Created"
-msgstr ""
+msgstr "Создан"
 
 #: navigator/components/NavFile.js
 msgid "'$0' is not a text file. Open it anyway?"
-msgstr ""
+msgstr "'$0' не является текстовым файлом. Всё равно открыть?"
 
 #: navigator/components/NavFile.js
 msgid "WARNING: this may lead to file corruption."
-msgstr ""
+msgstr "ВНИМАНИЕ: это может привести к повреждению файла."
 
 #: navigator/components/NavFile.js
 msgid "Editing "
-msgstr ""
+msgstr "Редактирование "
 
 #: navigator/components/NavFile.js
 msgid "Link Target"
-msgstr ""
+msgstr "Цель ссылки"
 
 #: navigator/components/NavFile.js
 msgid "Can't open "
-msgstr ""
+msgstr "Не удаётся открыть "
 
 #: navigator/components/NavFile.js
 msgid " for editing."
-msgstr ""
+msgstr " для редактирования."
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d Directory"
 msgid_plural "%d Directories"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d каталог"
+msgstr[1] "%d каталога"
+msgstr[2] "%d каталогов"
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d File"
 msgid_plural "%d Files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d файл"
+msgstr[1] "%d файла"
+msgstr[2] "%d файлов"
 
 #: navigator/components/NavWindow.js
 msgid "selected"
-msgstr ""
+msgstr "выбрано"
 
 #: navigator/components/NavWindow.js
 msgid "and"
-msgstr ""
+msgstr "и"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing $0 can be dangerous."
-msgstr ""
+msgstr "Предупреждение: редактирование $0 может быть опасным."
 
 #: navigator/components/NavWindow.js
 msgid "Are you sure?"
-msgstr ""
+msgstr "Вы уверены?"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing permissions for $0 files."
-msgstr ""
+msgstr "Предупреждение: изменение прав для $0 файлов."
 
 #: navigator/components/NavWindow.js
 msgid "Applying edits to:"
-msgstr ""
+msgstr "Применение изменений к:"
 
 #: navigator/components/NavWindow.js
 msgid "unchanged"
-msgstr ""
+msgstr "без изменений"
 
 #: navigator/components/NavWindow.js
 msgid "Deleting $0 files."
-msgstr ""
+msgstr "Удаление $0 файлов."
 
 #: navigator/components/NavWindow.js
 msgid "Deleting `$0`."
-msgstr ""
+msgstr "Удаление `$0`."
 
 #: navigator/components/NavWindow.js
 msgid "This cannot be undone. Are you sure?"
-msgstr ""
+msgstr "Это нельзя отменить. Вы уверены?"
 
 #: navigator/components/NavWindow.js
 msgid "Creating Directory"
-msgstr ""
+msgstr "Создание каталога"
 
 #: navigator/components/NavWindow.js
 msgid "Name: "
-msgstr ""
+msgstr "Имя: "
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't be empty."
-msgstr ""
+msgstr "Имя каталога не может быть пустым."
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't contain `/`."
-msgstr ""
+msgstr "Имя каталога не может содержать `/`."
 
 #: navigator/components/NavWindow.js
 msgid "Creating File"
-msgstr ""
+msgstr "Создание файла"
 
 #: navigator/components/NavWindow.js
 msgid "File name can't be empty."
-msgstr ""
+msgstr "Имя файла не может быть пустым."
 
 #: navigator/components/NavWindow.js
 msgid "Creating Symbolic Link"
-msgstr ""
+msgstr "Создание символической ссылки"
 
 #: navigator/components/NavWindow.js
 msgid "Target: "
-msgstr ""
+msgstr "Цель: "
 
 #: navigator/components/NavWindow.js
 msgid "Link target can't be empty."
-msgstr ""
+msgstr "Цель ссылки не может быть пустой."
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't be empty."
-msgstr ""
+msgstr "Имя ссылки не может быть пустым."
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't contain `/`."
-msgstr ""
+msgstr "Имя ссылки не может содержать `/`."
 
 #: navigator/components/NavWindow.js
 msgid "Overwrite?"
-msgstr ""
+msgstr "Перезаписать?"
 
 #: navigator/components/NavWindow.js
 msgid "Paste failed."
-msgstr ""
+msgstr "Вставка не удалась."
 
 #: navigator/components/NavWindow.js
 msgid "Cannot $0 system-critical paths."
-msgstr ""
+msgstr "Невозможно $0 системные критические пути."
 
 #: navigator/components/NavWindow.js
 msgid ""
 "The following path(s) are very dangerous to $0: $1. If you think you need "
 "to, use the terminal."
 msgstr ""
+"Следующие пути очень опасны для $0: $1. Если считаете, что это "
+"необходимо, используйте терминал."
 
 #: navigator/main.js
 msgid "Cockpit Navigator $0"
-msgstr ""
+msgstr "Cockpit Navigator $0"
 
 #: navigator/main.js
 msgid "Created by $0 for Houston UI (Cockpit)."
-msgstr ""
+msgstr "Создано $0 для Houston UI (Cockpit)."
 
 #: navigator/main.js
 msgid "Issue Tracker"
-msgstr ""
+msgstr "Отслеживание ошибок"
 
 #: navigator/main.js
 msgid "Feedback"
-msgstr ""
+msgstr "Обратная связь"
 
 #: navigator/main.js
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: navigator/main.js
 msgid "Forward"
-msgstr ""
+msgstr "Вперёд"
 
 #: navigator/main.js
 msgid "Up"
-msgstr ""
+msgstr "Вверх"
 
 #: navigator/main.js
 msgid "Refresh"
-msgstr ""
+msgstr "Обновить"
 
 #: navigator/main.js
 msgid "Navigation Bar"
-msgstr ""
+msgstr "Панель навигации"
 
 #: navigator/main.js
 msgid "New Directory"
-msgstr ""
+msgstr "Новый каталог"
 
 #: navigator/main.js
 msgid "New File"
-msgstr ""
+msgstr "Новый файл"
 
 #: navigator/main.js
 msgid "New Symbolic Link"
-msgstr ""
+msgstr "Новая символическая ссылка"
 
 #: navigator/main.js
 msgid "Upload File(s)"
-msgstr ""
+msgstr "Загрузить файлы"
 
 #: navigator/main.js
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: navigator/main.js
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: navigator/main.js
 msgid "Edit Properties"
-msgstr ""
+msgstr "Редактировать свойства"
 
 #: navigator/main.js
 msgid "Edit Contents"
-msgstr ""
+msgstr "Редактировать содержимое"
 
 #: navigator/main.js
 msgid "Save Changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
 #: navigator/main.js
 msgid "Prepend * to fuzzy search"
-msgstr ""
+msgstr "Добавьте * для нечёткого поиска"
 
 #: navigator/main.js
 msgid "Search in Directory"
-msgstr ""
+msgstr "Поиск в каталоге"
 
 #: navigator/main.js
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: navigator/main.js
 msgid "Read"
-msgstr ""
+msgstr "Чтение"
 
 #: navigator/main.js
 msgid "Write"
-msgstr ""
+msgstr "Запись"
 
 #: navigator/main.js
 msgid "Execute"
-msgstr ""
+msgstr "Выполнение"
 
 #: navigator/main.js
 msgid "Other"
-msgstr ""
+msgstr "Другое"
 
 #: navigator/main.js
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "Показать скрытые файлы"
 
 #: navigator/main.js
 msgid "Toggle Dark/Light"
-msgstr ""
+msgstr "Переключить тёмную/светлую тему"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr ""
+msgstr "Navigator"

@@ -4,6 +4,348 @@ cockpit.locale({
   "plural-forms": (n) => (n != 1),
   "language": "he",
   "language-direction": "rtl"
- }
+ },
+ "Uploading ": [
+  null,
+  "\u05de\u05e2\u05dc\u05d4 "
+ ],
+ "Failed to read file: ": [
+  null,
+  "\u05e0\u05db\u05e9\u05dc \u05d1\u05e7\u05e8\u05d9\u05d0\u05ea \u05d4\u05e7\u05d5\u05d1\u05e5: "
+ ],
+ "Upload of directories not supported.": [
+  null,
+  "\u05d4\u05e2\u05dc\u05d0\u05ea \u05ea\u05d9\u05e7\u05d9\u05d5\u05ea \u05d0\u05d9\u05e0\u05d4 \u05e0\u05ea\u05de\u05db\u05ea."
+ ],
+ "Upload of directories and empty files not supported.": [
+  null,
+  "\u05d4\u05e2\u05dc\u05d0\u05ea \u05ea\u05d9\u05e7\u05d9\u05d5\u05ea \u05d5\u05e7\u05d1\u05e6\u05d9\u05dd \u05e8\u05d9\u05e7\u05d9\u05dd \u05d0\u05d9\u05e0\u05d4 \u05e0\u05ea\u05de\u05db\u05ea."
+ ],
+ "OK": [
+  null,
+  "\u05d0\u05d9\u05e9\u05d5\u05e8"
+ ],
+ "Cancel": [
+  null,
+  "\u05d1\u05d9\u05d8\u05d5\u05dc"
+ ],
+ "Yes": [
+  null,
+  "\u05db\u05df"
+ ],
+ "No": [
+  null,
+  "\u05dc\u05d0"
+ ],
+ "Cannot rename system-critical paths.": [
+  null,
+  "\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df \u05dc\u05e9\u05e0\u05d5\u05ea \u05e9\u05dd \u05e9\u05dc \u05e0\u05ea\u05d9\u05d1\u05d9\u05dd \u05e7\u05e8\u05d9\u05d8\u05d9\u05d9\u05dd \u05dc\u05de\u05e2\u05e8\u05db\u05ea."
+ ],
+ "If you think you need to, use the terminal.": [
+  null,
+  "\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d7\u05d5\u05e9\u05d1 \u05e9\u05d0\u05ea\u05d4 \u05e6\u05e8\u05d9\u05da, \u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05d8\u05e8\u05de\u05d9\u05e0\u05dc."
+ ],
+ "Copy whole directory: $0?": [
+  null,
+  "\u05dc\u05d4\u05e2\u05ea\u05d9\u05e7 \u05d0\u05ea \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05db\u05d5\u05dc\u05d4: $0?"
+ ],
+ "Conflicts found while uploading. Replace?": [
+  null,
+  "\u05e0\u05de\u05e6\u05d0\u05d5 \u05d4\u05ea\u05e0\u05d2\u05e9\u05d5\u05d9\u05d5\u05ea \u05d1\u05d6\u05de\u05df \u05d4\u05d4\u05e2\u05dc\u05d0\u05d4. \u05dc\u05d4\u05d7\u05dc\u05d9\u05e3?"
+ ],
+ "File name can't contain `/`.": [
+  null,
+  "\u05e9\u05dd \u05d4\u05e7\u05d5\u05d1\u05e5 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05db\u05d9\u05dc `/`."
+ ],
+ "If you want to move the file, right click > cut then right click > paste.": [
+  null,
+  "\u05d0\u05dd \u05d1\u05e8\u05e6\u05d5\u05e0\u05da \u05dc\u05d4\u05e2\u05d1\u05d9\u05e8 \u05d0\u05ea \u05d4\u05e7\u05d5\u05d1\u05e5, \u05dc\u05d7\u05e5 \u05d9\u05de\u05e0\u05d9 > \u05d2\u05d6\u05d5\u05e8 \u05d5\u05d0\u05d6 \u05dc\u05d7\u05e5 \u05d9\u05de\u05e0\u05d9 > \u05d4\u05d3\u05d1\u05e7."
+ ],
+ "File name can't be `..`.": [
+  null,
+  "\u05e9\u05dd \u05d4\u05e7\u05d5\u05d1\u05e5 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea `..`."
+ ],
+ "Failed to rename.": [
+  null,
+  "\u05e9\u05d9\u05e0\u05d5\u05d9 \u05d4\u05e9\u05dd \u05e0\u05db\u05e9\u05dc."
+ ],
+ "File exists: ": [
+  null,
+  "\u05d4\u05e7\u05d5\u05d1\u05e5 \u05e7\u05d9\u05d9\u05dd: "
+ ],
+ "Mode": [
+  null,
+  "\u05de\u05e6\u05d1"
+ ],
+ "Owner": [
+  null,
+  "\u05d1\u05e2\u05dc\u05d9\u05dd"
+ ],
+ "Group": [
+  null,
+  "\u05e7\u05d1\u05d5\u05e6\u05d4"
+ ],
+ "Size": [
+  null,
+  "\u05d2\u05d5\u05d3\u05dc"
+ ],
+ "Accessed": [
+  null,
+  "\u05d2\u05d9\u05e9\u05d4 \u05d0\u05d7\u05e8\u05d5\u05e0\u05d4"
+ ],
+ "Modified": [
+  null,
+  "\u05e9\u05d5\u05e0\u05d4"
+ ],
+ "Created": [
+  null,
+  "\u05e0\u05d5\u05e6\u05e8"
+ ],
+ "'$0' is not a text file. Open it anyway?": [
+  null,
+  "'$0' \u05d0\u05d9\u05e0\u05d5 \u05e7\u05d5\u05d1\u05e5 \u05d8\u05e7\u05e1\u05d8. \u05dc\u05e4\u05ea\u05d5\u05d7 \u05d1\u05db\u05dc \u05d6\u05d0\u05ea?"
+ ],
+ "WARNING: this may lead to file corruption.": [
+  null,
+  "\u05d0\u05d6\u05d4\u05e8\u05d4: \u05e4\u05e2\u05d5\u05dc\u05d4 \u05d6\u05d5 \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05d2\u05e8\u05d5\u05dd \u05dc\u05e9\u05d7\u05d9\u05ea\u05d5\u05ea \u05d4\u05e7\u05d5\u05d1\u05e5."
+ ],
+ "Editing ": [
+  null,
+  "\u05e2\u05e8\u05d9\u05db\u05ea "
+ ],
+ "Link Target": [
+  null,
+  "\u05d9\u05e2\u05d3 \u05d4\u05e7\u05d9\u05e9\u05d5\u05e8"
+ ],
+ "Can't open ": [
+  null,
+  "\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df \u05dc\u05e4\u05ea\u05d5\u05d7 "
+ ],
+ " for editing.": [
+  null,
+  " \u05dc\u05e2\u05e8\u05d9\u05db\u05d4."
+ ],
+ "%d Directory": [
+  null,
+  "\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 %d",
+  "%d \u05ea\u05d9\u05e7\u05d9\u05d5\u05ea"
+ ],
+ "%d File": [
+  null,
+  "\u05e7\u05d5\u05d1\u05e5 %d",
+  "%d \u05e7\u05d1\u05e6\u05d9\u05dd"
+ ],
+ "selected": [
+  null,
+  "\u05e0\u05d1\u05d7\u05e8\u05d5"
+ ],
+ "and": [
+  null,
+  "\u05d5"
+ ],
+ "Warning: editing $0 can be dangerous.": [
+  null,
+  "\u05d0\u05d6\u05d4\u05e8\u05d4: \u05e2\u05e8\u05d9\u05db\u05ea $0 \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05d4\u05d9\u05d5\u05ea \u05de\u05e1\u05d5\u05db\u05e0\u05ea."
+ ],
+ "Are you sure?": [
+  null,
+  "\u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d1\u05d8\u05d5\u05d7?"
+ ],
+ "Warning: editing permissions for $0 files.": [
+  null,
+  "\u05d0\u05d6\u05d4\u05e8\u05d4: \u05e2\u05e8\u05d9\u05db\u05ea \u05d4\u05e8\u05e9\u05d0\u05d5\u05ea \u05e2\u05d1\u05d5\u05e8 $0 \u05e7\u05d1\u05e6\u05d9\u05dd."
+ ],
+ "Applying edits to:": [
+  null,
+  "\u05de\u05d7\u05d9\u05dc \u05e9\u05d9\u05e0\u05d5\u05d9\u05d9\u05dd \u05e2\u05dc:"
+ ],
+ "unchanged": [
+  null,
+  "\u05dc\u05dc\u05d0 \u05e9\u05d9\u05e0\u05d5\u05d9"
+ ],
+ "Deleting $0 files.": [
+  null,
+  "\u05de\u05d5\u05d7\u05e7 $0 \u05e7\u05d1\u05e6\u05d9\u05dd."
+ ],
+ "Deleting `$0`.": [
+  null,
+  "\u05de\u05d5\u05d7\u05e7 `$0`."
+ ],
+ "This cannot be undone. Are you sure?": [
+  null,
+  "\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df \u05dc\u05d1\u05d8\u05dc \u05e4\u05e2\u05d5\u05dc\u05d4 \u05d6\u05d5. \u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d1\u05d8\u05d5\u05d7?"
+ ],
+ "Creating Directory": [
+  null,
+  "\u05d9\u05e6\u05d9\u05e8\u05ea \u05ea\u05d9\u05e7\u05d9\u05d9\u05d4"
+ ],
+ "Name: ": [
+  null,
+  "\u05e9\u05dd: "
+ ],
+ "Directory name can't be empty.": [
+  null,
+  "\u05e9\u05dd \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea \u05e8\u05d9\u05e7."
+ ],
+ "Directory name can't contain `/`.": [
+  null,
+  "\u05e9\u05dd \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05db\u05d9\u05dc `/`."
+ ],
+ "Creating File": [
+  null,
+  "\u05d9\u05e6\u05d9\u05e8\u05ea \u05e7\u05d5\u05d1\u05e5"
+ ],
+ "File name can't be empty.": [
+  null,
+  "\u05e9\u05dd \u05d4\u05e7\u05d5\u05d1\u05e5 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea \u05e8\u05d9\u05e7."
+ ],
+ "Creating Symbolic Link": [
+  null,
+  "\u05d9\u05e6\u05d9\u05e8\u05ea \u05e7\u05d9\u05e9\u05d5\u05e8 \u05e1\u05de\u05dc\u05d9"
+ ],
+ "Target: ": [
+  null,
+  "\u05d9\u05e2\u05d3: "
+ ],
+ "Link target can't be empty.": [
+  null,
+  "\u05d9\u05e2\u05d3 \u05d4\u05e7\u05d9\u05e9\u05d5\u05e8 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea \u05e8\u05d9\u05e7."
+ ],
+ "Link name can't be empty.": [
+  null,
+  "\u05e9\u05dd \u05d4\u05e7\u05d9\u05e9\u05d5\u05e8 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea \u05e8\u05d9\u05e7."
+ ],
+ "Link name can't contain `/`.": [
+  null,
+  "\u05e9\u05dd \u05d4\u05e7\u05d9\u05e9\u05d5\u05e8 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05db\u05d9\u05dc `/`."
+ ],
+ "Overwrite?": [
+  null,
+  "\u05dc\u05d3\u05e8\u05d5\u05e1?"
+ ],
+ "Paste failed.": [
+  null,
+  "\u05d4\u05d4\u05d3\u05d1\u05e7\u05d4 \u05e0\u05db\u05e9\u05dc\u05d4."
+ ],
+ "Cannot $0 system-critical paths.": [
+  null,
+  "\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df $0 \u05e0\u05ea\u05d9\u05d1\u05d9\u05dd \u05e7\u05e8\u05d9\u05d8\u05d9\u05d9\u05dd \u05dc\u05de\u05e2\u05e8\u05db\u05ea."
+ ],
+ "The following path(s) are very dangerous to $0: $1. If you think you need to, use the terminal.": [
+  null,
+  "\u05d4\u05e0\u05ea\u05d9\u05d1\u05d9\u05dd \u05d4\u05d1\u05d0\u05d9\u05dd \u05de\u05e1\u05d5\u05db\u05e0\u05d9\u05dd \u05de\u05d0\u05d5\u05d3 \u05e2\u05d1\u05d5\u05e8 $0: $1. \u05d0\u05dd \u05d0\u05ea\u05d4 \u05d7\u05d5\u05e9\u05d1 \u05e9\u05d0\u05ea\u05d4 \u05e6\u05e8\u05d9\u05da, \u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05d8\u05e8\u05de\u05d9\u05e0\u05dc."
+ ],
+ "Cockpit Navigator $0": [
+  null,
+  "Cockpit Navigator $0"
+ ],
+ "Created by $0 for Houston UI (Cockpit).": [
+  null,
+  "\u05e0\u05d5\u05e6\u05e8 \u05e2\u05dc \u05d9\u05d3\u05d9 $0 \u05e2\u05d1\u05d5\u05e8 Houston UI (Cockpit)."
+ ],
+ "Issue Tracker": [
+  null,
+  "\u05de\u05e2\u05e7\u05d1 \u05ea\u05e7\u05dc\u05d5\u05ea"
+ ],
+ "Feedback": [
+  null,
+  "\u05de\u05e9\u05d5\u05d1"
+ ],
+ "Back": [
+  null,
+  "\u05d0\u05d7\u05d5\u05e8\u05d4"
+ ],
+ "Forward": [
+  null,
+  "\u05e7\u05d3\u05d9\u05de\u05d4"
+ ],
+ "Up": [
+  null,
+  "\u05dc\u05de\u05e2\u05dc\u05d4"
+ ],
+ "Refresh": [
+  null,
+  "\u05e8\u05e2\u05e0\u05d5\u05df"
+ ],
+ "Navigation Bar": [
+  null,
+  "\u05e1\u05e8\u05d2\u05dc \u05e0\u05d9\u05d5\u05d5\u05d8"
+ ],
+ "New Directory": [
+  null,
+  "\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05d7\u05d3\u05e9\u05d4"
+ ],
+ "New File": [
+  null,
+  "\u05e7\u05d5\u05d1\u05e5 \u05d7\u05d3\u05e9"
+ ],
+ "New Symbolic Link": [
+  null,
+  "\u05e7\u05d9\u05e9\u05d5\u05e8 \u05e1\u05de\u05dc\u05d9 \u05d7\u05d3\u05e9"
+ ],
+ "Upload File(s)": [
+  null,
+  "\u05d4\u05e2\u05dc\u05d0\u05ea \u05e7\u05d1\u05e6\u05d9\u05dd"
+ ],
+ "Save": [
+  null,
+  "\u05e9\u05de\u05d9\u05e8\u05d4"
+ ],
+ "Delete": [
+  null,
+  "\u05de\u05d7\u05d9\u05e7\u05d4"
+ ],
+ "Edit Properties": [
+  null,
+  "\u05e2\u05e8\u05d9\u05db\u05ea \u05de\u05d0\u05e4\u05d9\u05d9\u05e0\u05d9\u05dd"
+ ],
+ "Edit Contents": [
+  null,
+  "\u05e2\u05e8\u05d9\u05db\u05ea \u05ea\u05d5\u05db\u05df"
+ ],
+ "Save Changes": [
+  null,
+  "\u05e9\u05de\u05d9\u05e8\u05ea \u05e9\u05d9\u05e0\u05d5\u05d9\u05d9\u05dd"
+ ],
+ "Prepend * to fuzzy search": [
+  null,
+  "\u05d4\u05d5\u05e1\u05e3 * \u05dc\u05d7\u05d9\u05e4\u05d5\u05e9 \u05de\u05d8\u05d5\u05e9\u05d8\u05e9"
+ ],
+ "Search in Directory": [
+  null,
+  "\u05d7\u05d9\u05e4\u05d5\u05e9 \u05d1\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4"
+ ],
+ "Name": [
+  null,
+  "\u05e9\u05dd"
+ ],
+ "Read": [
+  null,
+  "\u05e7\u05e8\u05d9\u05d0\u05d4"
+ ],
+ "Write": [
+  null,
+  "\u05db\u05ea\u05d9\u05d1\u05d4"
+ ],
+ "Execute": [
+  null,
+  "\u05d4\u05e8\u05e6\u05d4"
+ ],
+ "Other": [
+  null,
+  "\u05d0\u05d7\u05e8"
+ ],
+ "Show Hidden Files": [
+  null,
+  "\u05d4\u05e6\u05d2 \u05e7\u05d1\u05e6\u05d9\u05dd \u05de\u05d5\u05e1\u05ea\u05e8\u05d9\u05dd"
+ ],
+ "Toggle Dark/Light": [
+  null,
+  "\u05d4\u05d7\u05dc\u05e3 \u05db\u05d4\u05d4/\u05d1\u05d4\u05d9\u05e8"
+ ],
+ "Navigator": [
+  null,
+  "Navigator"
+ ]
 });
 };

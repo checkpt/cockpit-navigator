@@ -14,353 +14,356 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);
+"
 
 #: navigator/components/FileUpload.js
 msgid "Uploading "
-msgstr ""
+msgstr "Lähetetään "
 
 #: navigator/components/FileUpload.js
 msgid "Failed to read file: "
-msgstr ""
+msgstr "Tiedoston lukeminen epäonnistui: "
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories not supported."
-msgstr ""
+msgstr "Hakemistojen lähettämistä ei tueta."
 
 #: navigator/components/FileUpload.js
 msgid "Upload of directories and empty files not supported."
-msgstr ""
+msgstr "Hakemistojen ja tyhjien tiedostojen lähettämistä ei tueta."
 
 #: navigator/components/ModalPrompt.js
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: navigator/components/ModalPrompt.js navigator/main.js
 msgid "Cancel"
-msgstr ""
+msgstr "Peruuta"
 
 #: navigator/components/ModalPrompt.js
 msgid "Yes"
-msgstr ""
+msgstr "Kyllä"
 
 #: navigator/components/ModalPrompt.js
 msgid "No"
-msgstr ""
+msgstr "Ei"
 
 #: navigator/components/NavContextMenu.js
 msgid "Cannot rename system-critical paths."
-msgstr ""
+msgstr "Järjestelmäkriittisiä polkuja ei voi nimetä uudelleen."
 
 #: navigator/components/NavContextMenu.js
 msgid "If you think you need to, use the terminal."
-msgstr ""
+msgstr "Jos uskot tarvitsevasi sitä, käytä päätettä."
 
 #: navigator/components/NavDragDrop.js
 msgid "Copy whole directory: $0?"
-msgstr ""
+msgstr "Kopioidaanko koko hakemisto: $0?"
 
 #: navigator/components/NavDragDrop.js
 msgid "Conflicts found while uploading. Replace?"
-msgstr ""
+msgstr "Lähetyksessä löytyi ristiriitoja. Korvatanko?"
 
 #: navigator/components/NavEntry.js navigator/components/NavWindow.js
 msgid "File name can't contain `/`."
-msgstr ""
+msgstr "Tiedoston nimi ei voi sisältää merkiä `/`."
 
 #: navigator/components/NavEntry.js
 msgid ""
 "If you want to move the file, right click > cut then right click > paste."
-msgstr ""
+msgstr "Jos haluat siirtää tiedoston, napsauta hiiren oikealla > leikkaa, sitten oikealla > liitä."
 
 #: navigator/components/NavEntry.js
 msgid "File name can't be `..`."
-msgstr ""
+msgstr "Tiedoston nimi ei voi olla `..`."
 
 #: navigator/components/NavEntry.js
 msgid "Failed to rename."
-msgstr ""
+msgstr "Uudelleennimeäminen epäonnistui."
 
 #: navigator/components/NavEntry.js
 msgid "File exists: "
-msgstr ""
+msgstr "Tiedosto on olemassa: "
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Mode"
-msgstr ""
+msgstr "Tila"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Owner"
-msgstr ""
+msgstr "Omistaja"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Group"
-msgstr ""
+msgstr "Ryhmä"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Size"
-msgstr ""
+msgstr "Koko"
 
 #: navigator/components/NavEntry.js
 msgid "Accessed"
-msgstr ""
+msgstr "Viimeksi käytetty"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Modified"
-msgstr ""
+msgstr "Muokattu"
 
 #: navigator/components/NavEntry.js navigator/main.js
 msgid "Created"
-msgstr ""
+msgstr "Luotu"
 
 #: navigator/components/NavFile.js
 msgid "'$0' is not a text file. Open it anyway?"
-msgstr ""
+msgstr "'$0' ei ole tekstitiedosto. Avataanko silti?"
 
 #: navigator/components/NavFile.js
 msgid "WARNING: this may lead to file corruption."
-msgstr ""
+msgstr "VAROITUS: tämä voi johtaa tiedoston vioittumiseen."
 
 #: navigator/components/NavFile.js
 msgid "Editing "
-msgstr ""
+msgstr "Muokataan "
 
 #: navigator/components/NavFile.js
 msgid "Link Target"
-msgstr ""
+msgstr "Linkin kohde"
 
 #: navigator/components/NavFile.js
 msgid "Can't open "
-msgstr ""
+msgstr "Ei voi avata "
 
 #: navigator/components/NavFile.js
 msgid " for editing."
-msgstr ""
+msgstr " muokattavaksi."
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d Directory"
 msgid_plural "%d Directories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d hakemisto"
+msgstr[1] "%d hakemistoa"
 
 #: navigator/components/NavWindow.js
 #, javascript-format
 msgid "%d File"
 msgid_plural "%d Files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d tiedosto"
+msgstr[1] "%d tiedostoa"
 
 #: navigator/components/NavWindow.js
 msgid "selected"
-msgstr ""
+msgstr "valittu"
 
 #: navigator/components/NavWindow.js
 msgid "and"
-msgstr ""
+msgstr "ja"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing $0 can be dangerous."
-msgstr ""
+msgstr "Varoitus: kohteen $0 muokkaaminen voi olla vaarallista."
 
 #: navigator/components/NavWindow.js
 msgid "Are you sure?"
-msgstr ""
+msgstr "Oletko varma?"
 
 #: navigator/components/NavWindow.js
 msgid "Warning: editing permissions for $0 files."
-msgstr ""
+msgstr "Varoitus: muokataan oikeuksia $0 tiedostolle."
 
 #: navigator/components/NavWindow.js
 msgid "Applying edits to:"
-msgstr ""
+msgstr "Muutoksia sovelletaan:"
 
 #: navigator/components/NavWindow.js
 msgid "unchanged"
-msgstr ""
+msgstr "muuttumaton"
 
 #: navigator/components/NavWindow.js
 msgid "Deleting $0 files."
-msgstr ""
+msgstr "Poistetaan $0 tiedostoa."
 
 #: navigator/components/NavWindow.js
 msgid "Deleting `$0`."
-msgstr ""
+msgstr "Poistetaan `$0`."
 
 #: navigator/components/NavWindow.js
 msgid "This cannot be undone. Are you sure?"
-msgstr ""
+msgstr "Tätä ei voi kumota. Oletko varma?"
 
 #: navigator/components/NavWindow.js
 msgid "Creating Directory"
-msgstr ""
+msgstr "Luodaan hakemisto"
 
 #: navigator/components/NavWindow.js
 msgid "Name: "
-msgstr ""
+msgstr "Nimi: "
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't be empty."
-msgstr ""
+msgstr "Hakemiston nimi ei voi olla tyhjä."
 
 #: navigator/components/NavWindow.js
 msgid "Directory name can't contain `/`."
-msgstr ""
+msgstr "Hakemiston nimi ei voi sisältää merkiä `/`."
 
 #: navigator/components/NavWindow.js
 msgid "Creating File"
-msgstr ""
+msgstr "Luodaan tiedosto"
 
 #: navigator/components/NavWindow.js
 msgid "File name can't be empty."
-msgstr ""
+msgstr "Tiedoston nimi ei voi olla tyhjä."
 
 #: navigator/components/NavWindow.js
 msgid "Creating Symbolic Link"
-msgstr ""
+msgstr "Luodaan symbolinen linkki"
 
 #: navigator/components/NavWindow.js
 msgid "Target: "
-msgstr ""
+msgstr "Kohde: "
 
 #: navigator/components/NavWindow.js
 msgid "Link target can't be empty."
-msgstr ""
+msgstr "Linkin kohde ei voi olla tyhjä."
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't be empty."
-msgstr ""
+msgstr "Linkin nimi ei voi olla tyhjä."
 
 #: navigator/components/NavWindow.js
 msgid "Link name can't contain `/`."
-msgstr ""
+msgstr "Linkin nimi ei voi sisältää merkiä `/`."
 
 #: navigator/components/NavWindow.js
 msgid "Overwrite?"
-msgstr ""
+msgstr "Korvatanko?"
 
 #: navigator/components/NavWindow.js
 msgid "Paste failed."
-msgstr ""
+msgstr "Liittäminen epäonnistui."
 
 #: navigator/components/NavWindow.js
 msgid "Cannot $0 system-critical paths."
-msgstr ""
+msgstr "Järjestelmäkriittisiä polkuja ei voi $0."
 
 #: navigator/components/NavWindow.js
 msgid ""
 "The following path(s) are very dangerous to $0: $1. If you think you need "
 "to, use the terminal."
 msgstr ""
+"Seuraavat polut ovat erittäin vaarallisia kohteelle $0: $1. Jos uskot "
+"tarvitsevasi sitä, käytä päätettä."
 
 #: navigator/main.js
 msgid "Cockpit Navigator $0"
-msgstr ""
+msgstr "Cockpit Navigator $0"
 
 #: navigator/main.js
 msgid "Created by $0 for Houston UI (Cockpit)."
-msgstr ""
+msgstr "Tekijä $0 Houston UI:lle (Cockpit)."
 
 #: navigator/main.js
 msgid "Issue Tracker"
-msgstr ""
+msgstr "Vianseuranta"
 
 #: navigator/main.js
 msgid "Feedback"
-msgstr ""
+msgstr "Palaute"
 
 #: navigator/main.js
 msgid "Back"
-msgstr ""
+msgstr "Takaisin"
 
 #: navigator/main.js
 msgid "Forward"
-msgstr ""
+msgstr "Eteenpäin"
 
 #: navigator/main.js
 msgid "Up"
-msgstr ""
+msgstr "Ylös"
 
 #: navigator/main.js
 msgid "Refresh"
-msgstr ""
+msgstr "Päivitä"
 
 #: navigator/main.js
 msgid "Navigation Bar"
-msgstr ""
+msgstr "Navigointipalkki"
 
 #: navigator/main.js
 msgid "New Directory"
-msgstr ""
+msgstr "Uusi hakemisto"
 
 #: navigator/main.js
 msgid "New File"
-msgstr ""
+msgstr "Uusi tiedosto"
 
 #: navigator/main.js
 msgid "New Symbolic Link"
-msgstr ""
+msgstr "Uusi symbolinen linkki"
 
 #: navigator/main.js
 msgid "Upload File(s)"
-msgstr ""
+msgstr "Lähetä tiedostoja"
 
 #: navigator/main.js
 msgid "Save"
-msgstr ""
+msgstr "Tallenna"
 
 #: navigator/main.js
 msgid "Delete"
-msgstr ""
+msgstr "Poista"
 
 #: navigator/main.js
 msgid "Edit Properties"
-msgstr ""
+msgstr "Muokkaa ominaisuuksia"
 
 #: navigator/main.js
 msgid "Edit Contents"
-msgstr ""
+msgstr "Muokkaa sisältöä"
 
 #: navigator/main.js
 msgid "Save Changes"
-msgstr ""
+msgstr "Tallenna muutokset"
 
 #: navigator/main.js
 msgid "Prepend * to fuzzy search"
-msgstr ""
+msgstr "Lisää * sumeaan hakuun"
 
 #: navigator/main.js
 msgid "Search in Directory"
-msgstr ""
+msgstr "Hae hakemistosta"
 
 #: navigator/main.js
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: navigator/main.js
 msgid "Read"
-msgstr ""
+msgstr "Luku"
 
 #: navigator/main.js
 msgid "Write"
-msgstr ""
+msgstr "Kirjoitus"
 
 #: navigator/main.js
 msgid "Execute"
-msgstr ""
+msgstr "Suoritus"
 
 #: navigator/main.js
 msgid "Other"
-msgstr ""
+msgstr "Muut"
 
 #: navigator/main.js
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "Näytä piilotetut tiedostot"
 
 #: navigator/main.js
 msgid "Toggle Dark/Light"
-msgstr ""
+msgstr "Vaihda tumma/vaalea"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr ""
+msgstr "Navigator"
