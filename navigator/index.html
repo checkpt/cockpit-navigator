@@ -28,16 +28,11 @@
 	<script src="fontawesome/attribution.js"></script>
 	<script src="../base1/cockpit.js"></script>
 	<script src="../manifests.js"></script>
-	<script src="../*/po.js"></script>
 	<script>
-	// Fallback: load package translations directly if ../*/po.js did not resolve
 	(function() {
 		var lang = cockpit.language;
 		if (lang && lang !== "en" && /^[a-zA-Z_]+$/.test(lang)) {
-			var t = cockpit.gettext("Cancel");
-			if (t === "Cancel") {
-				document.write('\x3Cscript src="po.' + lang + '.js">\x3C/script>');
-			}
+			document.write('\x3Cscript src="po.' + lang + '.js">\x3C/script>');
 		}
 	})();
 	</script>
