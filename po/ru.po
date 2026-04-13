@@ -368,4 +368,4 @@ msgstr "Переключить тёмную/светлую тему"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "Навигатор"

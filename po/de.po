@@ -366,4 +366,4 @@ msgstr "Dunkel/Hell umschalten"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "Datei-Navigator"

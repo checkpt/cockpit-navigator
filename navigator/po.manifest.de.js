@@ -6,6 +6,6 @@ cockpit.locale({
  },
  "Navigator": [
   null,
-  "Navigator"
+  "Datei-Navigator"
  ]
 });

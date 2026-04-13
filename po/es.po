@@ -366,4 +366,4 @@ msgstr "Cambiar tema Oscuro/Claro"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "Navegador"

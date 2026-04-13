@@ -346,6 +346,6 @@ cockpit.locale({
  ],
  "Navigator": [
   null,
-  "Navigator"
+  "\u041d\u0430\u0432\u0456\u0433\u0430\u0442\u043e\u0440"
  ]
 });

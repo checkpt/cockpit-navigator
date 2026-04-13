@@ -364,4 +364,4 @@ msgstr "Beralih Gelap/Terang"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "Penjelajah"

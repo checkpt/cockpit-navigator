@@ -364,4 +364,4 @@ msgstr "다크/라이트 전환"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "탐색기"

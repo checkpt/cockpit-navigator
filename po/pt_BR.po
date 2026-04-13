@@ -366,4 +366,4 @@ msgstr "Alternar Escuro/Claro"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "Navegador"

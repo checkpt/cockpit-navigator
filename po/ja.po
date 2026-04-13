@@ -364,4 +364,4 @@ msgstr "ダーク/ライト切替"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "ナビゲーター"

@@ -342,6 +342,6 @@ cockpit.locale({
  ],
  "Navigator": [
   null,
-  "Navigator"
+  "Penjelajah"
  ]
 });

@@ -362,4 +362,4 @@ msgstr "切換深色/淺色"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "檔案瀏覽器"

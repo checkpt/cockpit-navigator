@@ -366,4 +366,4 @@ msgstr "მუქი/ნათელი გადართვა"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "ნავიგატორი"

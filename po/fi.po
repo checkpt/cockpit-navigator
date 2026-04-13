@@ -366,4 +366,4 @@ msgstr "Vaihda tumma/vaalea"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "Tiedostoselain"

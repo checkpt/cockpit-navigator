@@ -6,6 +6,6 @@ cockpit.locale({
  },
  "Navigator": [
   null,
-  "Navigator"
+  "\u30ca\u30d3\u30b2\u30fc\u30bf\u30fc"
  ]
 });

@@ -368,4 +368,4 @@ msgstr "Přepnout tmavý/světlý režim"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "Navigátor"

@@ -366,4 +366,4 @@ msgstr "Basculer sombre/clair"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "Navigateur"

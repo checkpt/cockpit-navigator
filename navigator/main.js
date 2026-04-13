@@ -152,6 +152,9 @@ function listen_storage_changes() {
 }
 
 function translate_html() {
+	// Translate page title
+	document.title = _("Navigator");
+
 	// Translate title attributes
 	var title_map = {
 		"nav-back-btn": _("Back"),

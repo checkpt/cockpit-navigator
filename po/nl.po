@@ -366,4 +366,4 @@ msgstr "Donker/licht schakelen"
 
 #: navigator/manifest.json
 msgid "Navigator"
-msgstr "Navigator"
+msgstr "Verkenner"
