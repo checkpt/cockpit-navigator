@@ -1,3 +1,11 @@
+cockpit-navigator (0.6.0-1ubuntu) bookworm; urgency=medium
+
+  * Added internationalization (i18n) support
+  * Fixed malformed Plural-Forms headers in translation files
+  * Regenerated translation JS files from corrected .po sources
+
+ -- Checkpoint Systems, Inc. <support@checkpt.com>  Thu, 17 Apr 2026 12:00:00 +0000
+
 cockpit-navigator (0.5.12-1bookworm) bookworm; urgency=medium
 
   * Building latest fixes

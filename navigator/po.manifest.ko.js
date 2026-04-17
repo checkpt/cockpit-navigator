@@ -1,6 +1,6 @@
 cockpit.locale({
  "": {
-  "plural-forms": (n) => (n != 1),
+  "plural-forms": (n) => 0,
   "language": "ko",
   "language-direction": "ltr"
  },
