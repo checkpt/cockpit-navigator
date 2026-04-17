@@ -1,0 +1,369 @@
+# Hebrew translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);
+"
+
+#: navigator/components/FileUpload.js
+msgid "Uploading "
+msgstr "מעלה "
+
+#: navigator/components/FileUpload.js
+msgid "Failed to read file: "
+msgstr "נכשל בקריאת הקובץ: "
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories not supported."
+msgstr "העלאת תיקיות אינה נתמכת."
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories and empty files not supported."
+msgstr "העלאת תיקיות וקבצים ריקים אינה נתמכת."
+
+#: navigator/components/ModalPrompt.js
+msgid "OK"
+msgstr "אישור"
+
+#: navigator/components/ModalPrompt.js navigator/main.js
+msgid "Cancel"
+msgstr "ביטול"
+
+#: navigator/components/ModalPrompt.js
+msgid "Yes"
+msgstr "כן"
+
+#: navigator/components/ModalPrompt.js
+msgid "No"
+msgstr "לא"
+
+#: navigator/components/NavContextMenu.js
+msgid "Cannot rename system-critical paths."
+msgstr "לא ניתן לשנות שם של נתיבים קריטיים למערכת."
+
+#: navigator/components/NavContextMenu.js
+msgid "If you think you need to, use the terminal."
+msgstr "אם אתה חושב שאתה צריך, השתמש בטרמינל."
+
+#: navigator/components/NavDragDrop.js
+msgid "Copy whole directory: $0?"
+msgstr "להעתיק את התיקייה כולה: $0?"
+
+#: navigator/components/NavDragDrop.js
+msgid "Conflicts found while uploading. Replace?"
+msgstr "נמצאו התנגשויות בזמן ההעלאה. להחליף?"
+
+#: navigator/components/NavEntry.js navigator/components/NavWindow.js
+msgid "File name can't contain `/`."
+msgstr "שם הקובץ לא יכול להכיל `/`."
+
+#: navigator/components/NavEntry.js
+msgid ""
+"If you want to move the file, right click > cut then right click > paste."
+msgstr "אם ברצונך להעביר את הקובץ, לחץ ימני > גזור ואז לחץ ימני > הדבק."
+
+#: navigator/components/NavEntry.js
+msgid "File name can't be `..`."
+msgstr "שם הקובץ לא יכול להיות `..`."
+
+#: navigator/components/NavEntry.js
+msgid "Failed to rename."
+msgstr "שינוי השם נכשל."
+
+#: navigator/components/NavEntry.js
+msgid "File exists: "
+msgstr "הקובץ קיים: "
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Mode"
+msgstr "מצב"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Owner"
+msgstr "בעלים"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Group"
+msgstr "קבוצה"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Size"
+msgstr "גודל"
+
+#: navigator/components/NavEntry.js
+msgid "Accessed"
+msgstr "גישה אחרונה"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Modified"
+msgstr "שונה"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Created"
+msgstr "נוצר"
+
+#: navigator/components/NavFile.js
+msgid "'$0' is not a text file. Open it anyway?"
+msgstr "'$0' אינו קובץ טקסט. לפתוח בכל זאת?"
+
+#: navigator/components/NavFile.js
+msgid "WARNING: this may lead to file corruption."
+msgstr "אזהרה: פעולה זו עלולה לגרום לשחיתות הקובץ."
+
+#: navigator/components/NavFile.js
+msgid "Editing "
+msgstr "עריכת "
+
+#: navigator/components/NavFile.js
+msgid "Link Target"
+msgstr "יעד הקישור"
+
+#: navigator/components/NavFile.js
+msgid "Can't open "
+msgstr "לא ניתן לפתוח "
+
+#: navigator/components/NavFile.js
+msgid " for editing."
+msgstr " לעריכה."
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d Directory"
+msgid_plural "%d Directories"
+msgstr[0] "תיקייה %d"
+msgstr[1] "%d תיקיות"
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d File"
+msgid_plural "%d Files"
+msgstr[0] "קובץ %d"
+msgstr[1] "%d קבצים"
+
+#: navigator/components/NavWindow.js
+msgid "selected"
+msgstr "נבחרו"
+
+#: navigator/components/NavWindow.js
+msgid "and"
+msgstr "ו"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing $0 can be dangerous."
+msgstr "אזהרה: עריכת $0 עלולה להיות מסוכנת."
+
+#: navigator/components/NavWindow.js
+msgid "Are you sure?"
+msgstr "האם אתה בטוח?"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing permissions for $0 files."
+msgstr "אזהרה: עריכת הרשאות עבור $0 קבצים."
+
+#: navigator/components/NavWindow.js
+msgid "Applying edits to:"
+msgstr "מחיל שינויים על:"
+
+#: navigator/components/NavWindow.js
+msgid "unchanged"
+msgstr "ללא שינוי"
+
+#: navigator/components/NavWindow.js
+msgid "Deleting $0 files."
+msgstr "מוחק $0 קבצים."
+
+#: navigator/components/NavWindow.js
+msgid "Deleting `$0`."
+msgstr "מוחק `$0`."
+
+#: navigator/components/NavWindow.js
+msgid "This cannot be undone. Are you sure?"
+msgstr "לא ניתן לבטל פעולה זו. האם אתה בטוח?"
+
+#: navigator/components/NavWindow.js
+msgid "Creating Directory"
+msgstr "יצירת תיקייה"
+
+#: navigator/components/NavWindow.js
+msgid "Name: "
+msgstr "שם: "
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't be empty."
+msgstr "שם התיקייה לא יכול להיות ריק."
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't contain `/`."
+msgstr "שם התיקייה לא יכול להכיל `/`."
+
+#: navigator/components/NavWindow.js
+msgid "Creating File"
+msgstr "יצירת קובץ"
+
+#: navigator/components/NavWindow.js
+msgid "File name can't be empty."
+msgstr "שם הקובץ לא יכול להיות ריק."
+
+#: navigator/components/NavWindow.js
+msgid "Creating Symbolic Link"
+msgstr "יצירת קישור סמלי"
+
+#: navigator/components/NavWindow.js
+msgid "Target: "
+msgstr "יעד: "
+
+#: navigator/components/NavWindow.js
+msgid "Link target can't be empty."
+msgstr "יעד הקישור לא יכול להיות ריק."
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't be empty."
+msgstr "שם הקישור לא יכול להיות ריק."
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't contain `/`."
+msgstr "שם הקישור לא יכול להכיל `/`."
+
+#: navigator/components/NavWindow.js
+msgid "Overwrite?"
+msgstr "לדרוס?"
+
+#: navigator/components/NavWindow.js
+msgid "Paste failed."
+msgstr "ההדבקה נכשלה."
+
+#: navigator/components/NavWindow.js
+msgid "Cannot $0 system-critical paths."
+msgstr "לא ניתן $0 נתיבים קריטיים למערכת."
+
+#: navigator/components/NavWindow.js
+msgid ""
+"The following path(s) are very dangerous to $0: $1. If you think you need "
+"to, use the terminal."
+msgstr ""
+"הנתיבים הבאים מסוכנים מאוד עבור $0: $1. אם אתה חושב שאתה צריך, "
+"השתמש בטרמינל."
+
+#: navigator/main.js
+msgid "Cockpit Navigator $0"
+msgstr "Cockpit Navigator $0"
+
+#: navigator/main.js
+msgid "Created by $0 for Houston UI (Cockpit)."
+msgstr "נוצר על ידי $0 עבור Houston UI (Cockpit)."
+
+#: navigator/main.js
+msgid "Issue Tracker"
+msgstr "מעקב תקלות"
+
+#: navigator/main.js
+msgid "Feedback"
+msgstr "משוב"
+
+#: navigator/main.js
+msgid "Back"
+msgstr "אחורה"
+
+#: navigator/main.js
+msgid "Forward"
+msgstr "קדימה"
+
+#: navigator/main.js
+msgid "Up"
+msgstr "למעלה"
+
+#: navigator/main.js
+msgid "Refresh"
+msgstr "רענון"
+
+#: navigator/main.js
+msgid "Navigation Bar"
+msgstr "סרגל ניווט"
+
+#: navigator/main.js
+msgid "New Directory"
+msgstr "תיקייה חדשה"
+
+#: navigator/main.js
+msgid "New File"
+msgstr "קובץ חדש"
+
+#: navigator/main.js
+msgid "New Symbolic Link"
+msgstr "קישור סמלי חדש"
+
+#: navigator/main.js
+msgid "Upload File(s)"
+msgstr "העלאת קבצים"
+
+#: navigator/main.js
+msgid "Save"
+msgstr "שמירה"
+
+#: navigator/main.js
+msgid "Delete"
+msgstr "מחיקה"
+
+#: navigator/main.js
+msgid "Edit Properties"
+msgstr "עריכת מאפיינים"
+
+#: navigator/main.js
+msgid "Edit Contents"
+msgstr "עריכת תוכן"
+
+#: navigator/main.js
+msgid "Save Changes"
+msgstr "שמירת שינויים"
+
+#: navigator/main.js
+msgid "Prepend * to fuzzy search"
+msgstr "הוסף * לחיפוש מטושטש"
+
+#: navigator/main.js
+msgid "Search in Directory"
+msgstr "חיפוש בתיקייה"
+
+#: navigator/main.js
+msgid "Name"
+msgstr "שם"
+
+#: navigator/main.js
+msgid "Read"
+msgstr "קריאה"
+
+#: navigator/main.js
+msgid "Write"
+msgstr "כתיבה"
+
+#: navigator/main.js
+msgid "Execute"
+msgstr "הרצה"
+
+#: navigator/main.js
+msgid "Other"
+msgstr "אחר"
+
+#: navigator/main.js
+msgid "Show Hidden Files"
+msgstr "הצג קבצים מוסתרים"
+
+#: navigator/main.js
+msgid "Toggle Dark/Light"
+msgstr "החלף כהה/בהיר"
+
+#: navigator/manifest.json
+msgid "Navigator"
+msgstr "נווט"

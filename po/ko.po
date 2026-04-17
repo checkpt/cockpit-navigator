@@ -1,0 +1,367 @@
+# Korean translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;
+"
+
+#: navigator/components/FileUpload.js
+msgid "Uploading "
+msgstr "업로드 중 "
+
+#: navigator/components/FileUpload.js
+msgid "Failed to read file: "
+msgstr "파일 읽기 실패: "
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories not supported."
+msgstr "디렉토리 업로드는 지원되지 않습니다."
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories and empty files not supported."
+msgstr "디렉토리 및 빈 파일 업로드는 지원되지 않습니다."
+
+#: navigator/components/ModalPrompt.js
+msgid "OK"
+msgstr "확인"
+
+#: navigator/components/ModalPrompt.js navigator/main.js
+msgid "Cancel"
+msgstr "취소"
+
+#: navigator/components/ModalPrompt.js
+msgid "Yes"
+msgstr "예"
+
+#: navigator/components/ModalPrompt.js
+msgid "No"
+msgstr "아니오"
+
+#: navigator/components/NavContextMenu.js
+msgid "Cannot rename system-critical paths."
+msgstr "시스템 중요 경로의 이름을 변경할 수 없습니다."
+
+#: navigator/components/NavContextMenu.js
+msgid "If you think you need to, use the terminal."
+msgstr "필요하다고 생각되면 터미널을 사용하세요."
+
+#: navigator/components/NavDragDrop.js
+msgid "Copy whole directory: $0?"
+msgstr "전체 디렉터리 복사: $0?"
+
+#: navigator/components/NavDragDrop.js
+msgid "Conflicts found while uploading. Replace?"
+msgstr "업로드 중 충돌이 발견되었습니다. 교체하시겠습니까?"
+
+#: navigator/components/NavEntry.js navigator/components/NavWindow.js
+msgid "File name can't contain `/`."
+msgstr "파일 이름에 `/`를 포함할 수 없습니다."
+
+#: navigator/components/NavEntry.js
+msgid ""
+"If you want to move the file, right click > cut then right click > paste."
+msgstr "파일을 이동하려면, 오른쪽 클릭 > 잘라내기 후 오른쪽 클릭 > 붙여넣기."
+
+#: navigator/components/NavEntry.js
+msgid "File name can't be `..`."
+msgstr "파일 이름은 `..`일 수 없습니다."
+
+#: navigator/components/NavEntry.js
+msgid "Failed to rename."
+msgstr "이름 변경 실패."
+
+#: navigator/components/NavEntry.js
+msgid "File exists: "
+msgstr "파일이 존재합니다: "
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Mode"
+msgstr "모드"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Owner"
+msgstr "소유자"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Group"
+msgstr "그룹"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Size"
+msgstr "크기"
+
+#: navigator/components/NavEntry.js
+msgid "Accessed"
+msgstr "최근 접근"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Modified"
+msgstr "수정됨"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Created"
+msgstr "생성됨"
+
+#: navigator/components/NavFile.js
+msgid "'$0' is not a text file. Open it anyway?"
+msgstr "'$0'은(는) 텍스트 파일이 아닙니다. 그래도 여시겠습니까?"
+
+#: navigator/components/NavFile.js
+msgid "WARNING: this may lead to file corruption."
+msgstr "경고: 파일 손상이 발생할 수 있습니다."
+
+#: navigator/components/NavFile.js
+msgid "Editing "
+msgstr "편집 중 "
+
+#: navigator/components/NavFile.js
+msgid "Link Target"
+msgstr "링크 대상"
+
+#: navigator/components/NavFile.js
+msgid "Can't open "
+msgstr "열 수 없습니다 "
+
+#: navigator/components/NavFile.js
+msgid " for editing."
+msgstr " 편집할 수 없습니다."
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d Directory"
+msgid_plural "%d Directories"
+msgstr[0] "%d 디렉터리"
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d File"
+msgid_plural "%d Files"
+msgstr[0] "%d 파일"
+
+#: navigator/components/NavWindow.js
+msgid "selected"
+msgstr "선택됨"
+
+#: navigator/components/NavWindow.js
+msgid "and"
+msgstr "및"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing $0 can be dangerous."
+msgstr "경고: $0 편집은 위험할 수 있습니다."
+
+#: navigator/components/NavWindow.js
+msgid "Are you sure?"
+msgstr "정말입니까?"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing permissions for $0 files."
+msgstr "경고: $0 파일의 권한을 편집 중입니다."
+
+#: navigator/components/NavWindow.js
+msgid "Applying edits to:"
+msgstr "변경 사항 적용 중:"
+
+#: navigator/components/NavWindow.js
+msgid "unchanged"
+msgstr "변경 없음"
+
+#: navigator/components/NavWindow.js
+msgid "Deleting $0 files."
+msgstr "$0 파일 삭제 중."
+
+#: navigator/components/NavWindow.js
+msgid "Deleting `$0`."
+msgstr "`$0` 삭제 중."
+
+#: navigator/components/NavWindow.js
+msgid "This cannot be undone. Are you sure?"
+msgstr "이 작업은 되돌릴 수 없습니다. 정말입니까?"
+
+#: navigator/components/NavWindow.js
+msgid "Creating Directory"
+msgstr "디렉터리 생성"
+
+#: navigator/components/NavWindow.js
+msgid "Name: "
+msgstr "이름: "
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't be empty."
+msgstr "디렉터리 이름은 비어 있을 수 없습니다."
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't contain `/`."
+msgstr "디렉터리 이름에 `/`를 포함할 수 없습니다."
+
+#: navigator/components/NavWindow.js
+msgid "Creating File"
+msgstr "파일 생성"
+
+#: navigator/components/NavWindow.js
+msgid "File name can't be empty."
+msgstr "파일 이름은 비어 있을 수 없습니다."
+
+#: navigator/components/NavWindow.js
+msgid "Creating Symbolic Link"
+msgstr "심볼릭 링크 생성"
+
+#: navigator/components/NavWindow.js
+msgid "Target: "
+msgstr "대상: "
+
+#: navigator/components/NavWindow.js
+msgid "Link target can't be empty."
+msgstr "링크 대상은 비어 있을 수 없습니다."
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't be empty."
+msgstr "링크 이름은 비어 있을 수 없습니다."
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't contain `/`."
+msgstr "링크 이름에 `/`를 포함할 수 없습니다."
+
+#: navigator/components/NavWindow.js
+msgid "Overwrite?"
+msgstr "덮어쓰시겠습니까?"
+
+#: navigator/components/NavWindow.js
+msgid "Paste failed."
+msgstr "붙여넣기 실패."
+
+#: navigator/components/NavWindow.js
+msgid "Cannot $0 system-critical paths."
+msgstr "시스템 중요 경로를 $0할 수 없습니다."
+
+#: navigator/components/NavWindow.js
+msgid ""
+"The following path(s) are very dangerous to $0: $1. If you think you need "
+"to, use the terminal."
+msgstr ""
+"다음 경로는 $0에 매우 위험합니다: $1. 필요하다고 생각되면 터미널을 "
+"사용하세요."
+
+#: navigator/main.js
+msgid "Cockpit Navigator $0"
+msgstr "Cockpit Navigator $0"
+
+#: navigator/main.js
+msgid "Created by $0 for Houston UI (Cockpit)."
+msgstr "$0이(가) Houston UI (Cockpit)용으로 제작."
+
+#: navigator/main.js
+msgid "Issue Tracker"
+msgstr "이슈 트래커"
+
+#: navigator/main.js
+msgid "Feedback"
+msgstr "피드백"
+
+#: navigator/main.js
+msgid "Back"
+msgstr "뒤로"
+
+#: navigator/main.js
+msgid "Forward"
+msgstr "앞으로"
+
+#: navigator/main.js
+msgid "Up"
+msgstr "위로"
+
+#: navigator/main.js
+msgid "Refresh"
+msgstr "새로고침"
+
+#: navigator/main.js
+msgid "Navigation Bar"
+msgstr "탐색 표시줄"
+
+#: navigator/main.js
+msgid "New Directory"
+msgstr "새 디렉터리"
+
+#: navigator/main.js
+msgid "New File"
+msgstr "새 파일"
+
+#: navigator/main.js
+msgid "New Symbolic Link"
+msgstr "새 심볼릭 링크"
+
+#: navigator/main.js
+msgid "Upload File(s)"
+msgstr "파일 업로드"
+
+#: navigator/main.js
+msgid "Save"
+msgstr "저장"
+
+#: navigator/main.js
+msgid "Delete"
+msgstr "삭제"
+
+#: navigator/main.js
+msgid "Edit Properties"
+msgstr "속성 편집"
+
+#: navigator/main.js
+msgid "Edit Contents"
+msgstr "내용 편집"
+
+#: navigator/main.js
+msgid "Save Changes"
+msgstr "변경 사항 저장"
+
+#: navigator/main.js
+msgid "Prepend * to fuzzy search"
+msgstr "퍼지 검색을 위해 *를 앞에 추가"
+
+#: navigator/main.js
+msgid "Search in Directory"
+msgstr "디렉터리에서 검색"
+
+#: navigator/main.js
+msgid "Name"
+msgstr "이름"
+
+#: navigator/main.js
+msgid "Read"
+msgstr "읽기"
+
+#: navigator/main.js
+msgid "Write"
+msgstr "쓰기"
+
+#: navigator/main.js
+msgid "Execute"
+msgstr "실행"
+
+#: navigator/main.js
+msgid "Other"
+msgstr "기타"
+
+#: navigator/main.js
+msgid "Show Hidden Files"
+msgstr "숨김 파일 표시"
+
+#: navigator/main.js
+msgid "Toggle Dark/Light"
+msgstr "다크/라이트 전환"
+
+#: navigator/manifest.json
+msgid "Navigator"
+msgstr "탐색기"

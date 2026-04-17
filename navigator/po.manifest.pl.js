@@ -1,0 +1,11 @@
+cockpit.locale({
+ "": {
+  "plural-forms": (n) => (n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2),
+  "language": "pl",
+  "language-direction": "ltr"
+ },
+ "Navigator": [
+  null,
+  "Nawigator"
+ ]
+});

@@ -1,0 +1,367 @@
+# Indonesian translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;
+"
+
+#: navigator/components/FileUpload.js
+msgid "Uploading "
+msgstr "Mengunggah "
+
+#: navigator/components/FileUpload.js
+msgid "Failed to read file: "
+msgstr "Gagal membaca berkas: "
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories not supported."
+msgstr "Pengunggahan direktori tidak didukung."
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories and empty files not supported."
+msgstr "Pengunggahan direktori dan berkas kosong tidak didukung."
+
+#: navigator/components/ModalPrompt.js
+msgid "OK"
+msgstr "OK"
+
+#: navigator/components/ModalPrompt.js navigator/main.js
+msgid "Cancel"
+msgstr "Batal"
+
+#: navigator/components/ModalPrompt.js
+msgid "Yes"
+msgstr "Ya"
+
+#: navigator/components/ModalPrompt.js
+msgid "No"
+msgstr "Tidak"
+
+#: navigator/components/NavContextMenu.js
+msgid "Cannot rename system-critical paths."
+msgstr "Tidak dapat mengganti nama jalur kritis sistem."
+
+#: navigator/components/NavContextMenu.js
+msgid "If you think you need to, use the terminal."
+msgstr "Jika Anda merasa perlu, gunakan terminal."
+
+#: navigator/components/NavDragDrop.js
+msgid "Copy whole directory: $0?"
+msgstr "Salin seluruh direktori: $0?"
+
+#: navigator/components/NavDragDrop.js
+msgid "Conflicts found while uploading. Replace?"
+msgstr "Ditemukan konflik saat mengunggah. Ganti?"
+
+#: navigator/components/NavEntry.js navigator/components/NavWindow.js
+msgid "File name can't contain `/`."
+msgstr "Nama berkas tidak boleh mengandung `/`."
+
+#: navigator/components/NavEntry.js
+msgid ""
+"If you want to move the file, right click > cut then right click > paste."
+msgstr "Jika Anda ingin memindahkan berkas, klik kanan > potong lalu klik kanan > tempel."
+
+#: navigator/components/NavEntry.js
+msgid "File name can't be `..`."
+msgstr "Nama berkas tidak boleh `..`."
+
+#: navigator/components/NavEntry.js
+msgid "Failed to rename."
+msgstr "Gagal mengganti nama."
+
+#: navigator/components/NavEntry.js
+msgid "File exists: "
+msgstr "Berkas sudah ada: "
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Mode"
+msgstr "Mode"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Owner"
+msgstr "Pemilik"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Group"
+msgstr "Grup"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Size"
+msgstr "Ukuran"
+
+#: navigator/components/NavEntry.js
+msgid "Accessed"
+msgstr "Terakhir diakses"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Modified"
+msgstr "Diubah"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Created"
+msgstr "Dibuat"
+
+#: navigator/components/NavFile.js
+msgid "'$0' is not a text file. Open it anyway?"
+msgstr "'$0' bukan berkas teks. Tetap buka?"
+
+#: navigator/components/NavFile.js
+msgid "WARNING: this may lead to file corruption."
+msgstr "PERINGATAN: ini dapat menyebabkan kerusakan berkas."
+
+#: navigator/components/NavFile.js
+msgid "Editing "
+msgstr "Mengedit "
+
+#: navigator/components/NavFile.js
+msgid "Link Target"
+msgstr "Target tautan"
+
+#: navigator/components/NavFile.js
+msgid "Can't open "
+msgstr "Tidak dapat membuka "
+
+#: navigator/components/NavFile.js
+msgid " for editing."
+msgstr " untuk diedit."
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d Directory"
+msgid_plural "%d Directories"
+msgstr[0] "%d Direktori"
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d File"
+msgid_plural "%d Files"
+msgstr[0] "%d Berkas"
+
+#: navigator/components/NavWindow.js
+msgid "selected"
+msgstr "dipilih"
+
+#: navigator/components/NavWindow.js
+msgid "and"
+msgstr "dan"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing $0 can be dangerous."
+msgstr "Peringatan: mengedit $0 bisa berbahaya."
+
+#: navigator/components/NavWindow.js
+msgid "Are you sure?"
+msgstr "Apakah Anda yakin?"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing permissions for $0 files."
+msgstr "Peringatan: mengedit izin untuk $0 berkas."
+
+#: navigator/components/NavWindow.js
+msgid "Applying edits to:"
+msgstr "Menerapkan perubahan ke:"
+
+#: navigator/components/NavWindow.js
+msgid "unchanged"
+msgstr "tidak berubah"
+
+#: navigator/components/NavWindow.js
+msgid "Deleting $0 files."
+msgstr "Menghapus $0 berkas."
+
+#: navigator/components/NavWindow.js
+msgid "Deleting `$0`."
+msgstr "Menghapus `$0`."
+
+#: navigator/components/NavWindow.js
+msgid "This cannot be undone. Are you sure?"
+msgstr "Ini tidak dapat dibatalkan. Apakah Anda yakin?"
+
+#: navigator/components/NavWindow.js
+msgid "Creating Directory"
+msgstr "Membuat Direktori"
+
+#: navigator/components/NavWindow.js
+msgid "Name: "
+msgstr "Nama: "
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't be empty."
+msgstr "Nama direktori tidak boleh kosong."
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't contain `/`."
+msgstr "Nama direktori tidak boleh mengandung `/`."
+
+#: navigator/components/NavWindow.js
+msgid "Creating File"
+msgstr "Membuat Berkas"
+
+#: navigator/components/NavWindow.js
+msgid "File name can't be empty."
+msgstr "Nama berkas tidak boleh kosong."
+
+#: navigator/components/NavWindow.js
+msgid "Creating Symbolic Link"
+msgstr "Membuat Tautan Simbolik"
+
+#: navigator/components/NavWindow.js
+msgid "Target: "
+msgstr "Target: "
+
+#: navigator/components/NavWindow.js
+msgid "Link target can't be empty."
+msgstr "Target tautan tidak boleh kosong."
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't be empty."
+msgstr "Nama tautan tidak boleh kosong."
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't contain `/`."
+msgstr "Nama tautan tidak boleh mengandung `/`."
+
+#: navigator/components/NavWindow.js
+msgid "Overwrite?"
+msgstr "Timpa?"
+
+#: navigator/components/NavWindow.js
+msgid "Paste failed."
+msgstr "Gagal menempel."
+
+#: navigator/components/NavWindow.js
+msgid "Cannot $0 system-critical paths."
+msgstr "Tidak dapat $0 jalur kritis sistem."
+
+#: navigator/components/NavWindow.js
+msgid ""
+"The following path(s) are very dangerous to $0: $1. If you think you need "
+"to, use the terminal."
+msgstr ""
+"Jalur berikut sangat berbahaya untuk $0: $1. Jika Anda merasa perlu, "
+"gunakan terminal."
+
+#: navigator/main.js
+msgid "Cockpit Navigator $0"
+msgstr "Cockpit Navigator $0"
+
+#: navigator/main.js
+msgid "Created by $0 for Houston UI (Cockpit)."
+msgstr "Dibuat oleh $0 untuk Houston UI (Cockpit)."
+
+#: navigator/main.js
+msgid "Issue Tracker"
+msgstr "Pelacak Masalah"
+
+#: navigator/main.js
+msgid "Feedback"
+msgstr "Umpan Balik"
+
+#: navigator/main.js
+msgid "Back"
+msgstr "Kembali"
+
+#: navigator/main.js
+msgid "Forward"
+msgstr "Maju"
+
+#: navigator/main.js
+msgid "Up"
+msgstr "Atas"
+
+#: navigator/main.js
+msgid "Refresh"
+msgstr "Segarkan"
+
+#: navigator/main.js
+msgid "Navigation Bar"
+msgstr "Bilah Navigasi"
+
+#: navigator/main.js
+msgid "New Directory"
+msgstr "Direktori Baru"
+
+#: navigator/main.js
+msgid "New File"
+msgstr "Berkas Baru"
+
+#: navigator/main.js
+msgid "New Symbolic Link"
+msgstr "Tautan Simbolik Baru"
+
+#: navigator/main.js
+msgid "Upload File(s)"
+msgstr "Unggah Berkas"
+
+#: navigator/main.js
+msgid "Save"
+msgstr "Simpan"
+
+#: navigator/main.js
+msgid "Delete"
+msgstr "Hapus"
+
+#: navigator/main.js
+msgid "Edit Properties"
+msgstr "Edit Properti"
+
+#: navigator/main.js
+msgid "Edit Contents"
+msgstr "Edit Isi"
+
+#: navigator/main.js
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: navigator/main.js
+msgid "Prepend * to fuzzy search"
+msgstr "Tambahkan * untuk pencarian kabur"
+
+#: navigator/main.js
+msgid "Search in Directory"
+msgstr "Cari di Direktori"
+
+#: navigator/main.js
+msgid "Name"
+msgstr "Nama"
+
+#: navigator/main.js
+msgid "Read"
+msgstr "Baca"
+
+#: navigator/main.js
+msgid "Write"
+msgstr "Tulis"
+
+#: navigator/main.js
+msgid "Execute"
+msgstr "Eksekusi"
+
+#: navigator/main.js
+msgid "Other"
+msgstr "Lainnya"
+
+#: navigator/main.js
+msgid "Show Hidden Files"
+msgstr "Tampilkan Berkas Tersembunyi"
+
+#: navigator/main.js
+msgid "Toggle Dark/Light"
+msgstr "Beralih Gelap/Terang"
+
+#: navigator/manifest.json
+msgid "Navigator"
+msgstr "Penjelajah"

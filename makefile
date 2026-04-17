@@ -14,9 +14,12 @@
 # along with Cockpit Navigator.  If not, see <https://www.gnu.org/licenses/>.
 
 EL7_DIST=.el7
+PACKAGE_NAME=navigator
 
-default:
-	
+# i18n - discover available translations
+LINGUAS=$(basename $(notdir $(wildcard po/*.po)))
+
+default: po-js
 
 all: default
 
@@ -75,3 +78,53 @@ endif
 # Optional convenience target
 uninstall-remote:
 	$(SSH) "rm -rf $(REMOTE_DESTDIR)$(REMOTE_PREFIX)/navigator"
+
+#
+# i18n
+#
+
+po/$(PACKAGE_NAME).pot:
+	xgettext --default-domain=$(PACKAGE_NAME) --output=$@ --language=JavaScript \
+		--keyword=_ --keyword=N_ --keyword=C_:1c,2 --keyword=ngettext:1,2 \
+		--add-comments=Translators: \
+		--from-code=UTF-8 \
+		$$(find navigator/ -name '*.js' ! -path '*/fontawesome/*')
+	@# Append manifest.json labels to the POT
+	@printf '\n#: navigator/manifest.json\nmsgid "Navigator"\nmsgstr ""\n' >> $@
+	@sed -i '/^"POT-Creation-Date:/d' $@
+
+po/LINGUAS:
+	echo $(LINGUAS) | tr ' ' '\n' > $@
+
+# Update all existing PO files from the POT
+update-po: po/$(PACKAGE_NAME).pot
+	@for lang in $(LINGUAS); do \
+		printf "Updating $$lang.po... "; \
+		msgmerge --add-location=file --backup=none --update po/$$lang.po po/$(PACKAGE_NAME).pot; \
+	done
+
+# Generate Cockpit-compatible po.<lang>.js and po.manifest.<lang>.js from each .po file
+# po.XX.js        → loaded via <script src="../*/po.js"></script> for JS string translations
+# po.manifest.XX.js → loaded by cockpit shell to translate sidebar label
+po-js: $(patsubst po/%.po,navigator/po.%.js,$(wildcard po/*.po)) \
+       $(patsubst po/%.po,navigator/po.manifest.%.js,$(wildcard po/*.po))
+
+navigator/po.%.js: po/%.po po/po2json.py
+	python3 po/po2json.py $< $@
+
+navigator/po.manifest.%.js: po/%.po po/po2json.py navigator/manifest.json
+	python3 po/po2json.py $< $@ navigator/manifest.json
+
+# Create a new PO file for a language: make po/XX.po
+po/%.po: po/$(PACKAGE_NAME).pot
+	@if [ ! -f $@ ]; then \
+		msginit --no-translator --locale=$* --input=$< --output-file=$@; \
+	else \
+		msgmerge --add-location=file --backup=none --update $@ $<; \
+	fi
+
+clean-po:
+	rm -f navigator/po.*.js
+	rm -f po/$(PACKAGE_NAME).pot po/$(PACKAGE_NAME).*.pot po/LINGUAS
+
+.PHONY: all clean install install-local install-remote uninstall uninstall-local uninstall-remote update-po po-js clean-po

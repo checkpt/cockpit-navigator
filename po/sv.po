@@ -1,0 +1,369 @@
+# Swedish translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);
+"
+
+#: navigator/components/FileUpload.js
+msgid "Uploading "
+msgstr "Laddar upp "
+
+#: navigator/components/FileUpload.js
+msgid "Failed to read file: "
+msgstr "Kunde inte läsa filen: "
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories not supported."
+msgstr "Uppladdning av kataloger stöds inte."
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories and empty files not supported."
+msgstr "Uppladdning av kataloger och tomma filer stöds inte."
+
+#: navigator/components/ModalPrompt.js
+msgid "OK"
+msgstr "OK"
+
+#: navigator/components/ModalPrompt.js navigator/main.js
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: navigator/components/ModalPrompt.js
+msgid "Yes"
+msgstr "Ja"
+
+#: navigator/components/ModalPrompt.js
+msgid "No"
+msgstr "Nej"
+
+#: navigator/components/NavContextMenu.js
+msgid "Cannot rename system-critical paths."
+msgstr "Kan inte byta namn på systemkritiska sökvägar."
+
+#: navigator/components/NavContextMenu.js
+msgid "If you think you need to, use the terminal."
+msgstr "Om du tror att du behöver det, använd terminalen."
+
+#: navigator/components/NavDragDrop.js
+msgid "Copy whole directory: $0?"
+msgstr "Kopiera hela katalogen: $0?"
+
+#: navigator/components/NavDragDrop.js
+msgid "Conflicts found while uploading. Replace?"
+msgstr "Konflikter hittades vid uppladdning. Ersätta?"
+
+#: navigator/components/NavEntry.js navigator/components/NavWindow.js
+msgid "File name can't contain `/`."
+msgstr "Filnamnet kan inte innehålla `/`."
+
+#: navigator/components/NavEntry.js
+msgid ""
+"If you want to move the file, right click > cut then right click > paste."
+msgstr "Om du vill flytta filen, högerklicka > klipp ut, sedan högerklicka > klistra in."
+
+#: navigator/components/NavEntry.js
+msgid "File name can't be `..`."
+msgstr "Filnamnet kan inte vara `..`."
+
+#: navigator/components/NavEntry.js
+msgid "Failed to rename."
+msgstr "Namnbyte misslyckades."
+
+#: navigator/components/NavEntry.js
+msgid "File exists: "
+msgstr "Filen finns redan: "
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Mode"
+msgstr "Läge"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Owner"
+msgstr "Ägare"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Group"
+msgstr "Grupp"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Size"
+msgstr "Storlek"
+
+#: navigator/components/NavEntry.js
+msgid "Accessed"
+msgstr "Senast öppnad"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Modified"
+msgstr "Ändrad"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Created"
+msgstr "Skapad"
+
+#: navigator/components/NavFile.js
+msgid "'$0' is not a text file. Open it anyway?"
+msgstr "'$0' är inte en textfil. Öppna ändå?"
+
+#: navigator/components/NavFile.js
+msgid "WARNING: this may lead to file corruption."
+msgstr "VARNING: detta kan leda till filkorruption."
+
+#: navigator/components/NavFile.js
+msgid "Editing "
+msgstr "Redigerar "
+
+#: navigator/components/NavFile.js
+msgid "Link Target"
+msgstr "Länkmål"
+
+#: navigator/components/NavFile.js
+msgid "Can't open "
+msgstr "Kan inte öppna "
+
+#: navigator/components/NavFile.js
+msgid " for editing."
+msgstr " för redigering."
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d Directory"
+msgid_plural "%d Directories"
+msgstr[0] "%d katalog"
+msgstr[1] "%d kataloger"
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d File"
+msgid_plural "%d Files"
+msgstr[0] "%d fil"
+msgstr[1] "%d filer"
+
+#: navigator/components/NavWindow.js
+msgid "selected"
+msgstr "markerade"
+
+#: navigator/components/NavWindow.js
+msgid "and"
+msgstr "och"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing $0 can be dangerous."
+msgstr "Varning: redigering av $0 kan vara farligt."
+
+#: navigator/components/NavWindow.js
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing permissions for $0 files."
+msgstr "Varning: redigerar rättigheter för $0 filer."
+
+#: navigator/components/NavWindow.js
+msgid "Applying edits to:"
+msgstr "Tillämpar ändringar på:"
+
+#: navigator/components/NavWindow.js
+msgid "unchanged"
+msgstr "oförändrad"
+
+#: navigator/components/NavWindow.js
+msgid "Deleting $0 files."
+msgstr "Tar bort $0 filer."
+
+#: navigator/components/NavWindow.js
+msgid "Deleting `$0`."
+msgstr "Tar bort `$0`."
+
+#: navigator/components/NavWindow.js
+msgid "This cannot be undone. Are you sure?"
+msgstr "Detta kan inte ångras. Är du säker?"
+
+#: navigator/components/NavWindow.js
+msgid "Creating Directory"
+msgstr "Skapar katalog"
+
+#: navigator/components/NavWindow.js
+msgid "Name: "
+msgstr "Namn: "
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't be empty."
+msgstr "Katalognamnet kan inte vara tomt."
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't contain `/`."
+msgstr "Katalognamnet kan inte innehålla `/`."
+
+#: navigator/components/NavWindow.js
+msgid "Creating File"
+msgstr "Skapar fil"
+
+#: navigator/components/NavWindow.js
+msgid "File name can't be empty."
+msgstr "Filnamnet kan inte vara tomt."
+
+#: navigator/components/NavWindow.js
+msgid "Creating Symbolic Link"
+msgstr "Skapar symbolisk länk"
+
+#: navigator/components/NavWindow.js
+msgid "Target: "
+msgstr "Mål: "
+
+#: navigator/components/NavWindow.js
+msgid "Link target can't be empty."
+msgstr "Länkmålet kan inte vara tomt."
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't be empty."
+msgstr "Länknamnet kan inte vara tomt."
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't contain `/`."
+msgstr "Länknamnet kan inte innehålla `/`."
+
+#: navigator/components/NavWindow.js
+msgid "Overwrite?"
+msgstr "Skriva över?"
+
+#: navigator/components/NavWindow.js
+msgid "Paste failed."
+msgstr "Inklistring misslyckades."
+
+#: navigator/components/NavWindow.js
+msgid "Cannot $0 system-critical paths."
+msgstr "Kan inte $0 systemkritiska sökvägar."
+
+#: navigator/components/NavWindow.js
+msgid ""
+"The following path(s) are very dangerous to $0: $1. If you think you need "
+"to, use the terminal."
+msgstr ""
+"Följande sökvägar är mycket farliga att $0: $1. Om du tror att du behöver "
+"det, använd terminalen."
+
+#: navigator/main.js
+msgid "Cockpit Navigator $0"
+msgstr "Cockpit Navigator $0"
+
+#: navigator/main.js
+msgid "Created by $0 for Houston UI (Cockpit)."
+msgstr "Skapad av $0 för Houston UI (Cockpit)."
+
+#: navigator/main.js
+msgid "Issue Tracker"
+msgstr "Felrapportering"
+
+#: navigator/main.js
+msgid "Feedback"
+msgstr "Feedback"
+
+#: navigator/main.js
+msgid "Back"
+msgstr "Bakåt"
+
+#: navigator/main.js
+msgid "Forward"
+msgstr "Framåt"
+
+#: navigator/main.js
+msgid "Up"
+msgstr "Upp"
+
+#: navigator/main.js
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: navigator/main.js
+msgid "Navigation Bar"
+msgstr "Navigeringsfält"
+
+#: navigator/main.js
+msgid "New Directory"
+msgstr "Ny katalog"
+
+#: navigator/main.js
+msgid "New File"
+msgstr "Ny fil"
+
+#: navigator/main.js
+msgid "New Symbolic Link"
+msgstr "Ny symbolisk länk"
+
+#: navigator/main.js
+msgid "Upload File(s)"
+msgstr "Ladda upp filer"
+
+#: navigator/main.js
+msgid "Save"
+msgstr "Spara"
+
+#: navigator/main.js
+msgid "Delete"
+msgstr "Ta bort"
+
+#: navigator/main.js
+msgid "Edit Properties"
+msgstr "Redigera egenskaper"
+
+#: navigator/main.js
+msgid "Edit Contents"
+msgstr "Redigera innehåll"
+
+#: navigator/main.js
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: navigator/main.js
+msgid "Prepend * to fuzzy search"
+msgstr "Lägg till * för ungefärlig sökning"
+
+#: navigator/main.js
+msgid "Search in Directory"
+msgstr "Sök i katalog"
+
+#: navigator/main.js
+msgid "Name"
+msgstr "Namn"
+
+#: navigator/main.js
+msgid "Read"
+msgstr "Läsa"
+
+#: navigator/main.js
+msgid "Write"
+msgstr "Skriva"
+
+#: navigator/main.js
+msgid "Execute"
+msgstr "Köra"
+
+#: navigator/main.js
+msgid "Other"
+msgstr "Övriga"
+
+#: navigator/main.js
+msgid "Show Hidden Files"
+msgstr "Visa dolda filer"
+
+#: navigator/main.js
+msgid "Toggle Dark/Light"
+msgstr "Växla mörkt/ljust"
+
+#: navigator/manifest.json
+msgid "Navigator"
+msgstr "Filnavigator"

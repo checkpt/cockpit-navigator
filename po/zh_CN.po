@@ -1,0 +1,365 @@
+# Chinese translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;
+"
+
+#: navigator/components/FileUpload.js
+msgid "Uploading "
+msgstr "正在上传 "
+
+#: navigator/components/FileUpload.js
+msgid "Failed to read file: "
+msgstr "读取文件失败："
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories not supported."
+msgstr "不支持上传目录。"
+
+#: navigator/components/FileUpload.js
+msgid "Upload of directories and empty files not supported."
+msgstr "不支持上传目录和空文件。"
+
+#: navigator/components/ModalPrompt.js
+msgid "OK"
+msgstr "确定"
+
+#: navigator/components/ModalPrompt.js navigator/main.js
+msgid "Cancel"
+msgstr "取消"
+
+#: navigator/components/ModalPrompt.js
+msgid "Yes"
+msgstr "是"
+
+#: navigator/components/ModalPrompt.js
+msgid "No"
+msgstr "否"
+
+#: navigator/components/NavContextMenu.js
+msgid "Cannot rename system-critical paths."
+msgstr "无法重命名系统关键路径。"
+
+#: navigator/components/NavContextMenu.js
+msgid "If you think you need to, use the terminal."
+msgstr "如果您认为有必要，请使用终端。"
+
+#: navigator/components/NavDragDrop.js
+msgid "Copy whole directory: $0?"
+msgstr "复制整个目录：$0？"
+
+#: navigator/components/NavDragDrop.js
+msgid "Conflicts found while uploading. Replace?"
+msgstr "上传时发现冲突。是否替换？"
+
+#: navigator/components/NavEntry.js navigator/components/NavWindow.js
+msgid "File name can't contain `/`."
+msgstr "文件名不能包含“/”。"
+
+#: navigator/components/NavEntry.js
+msgid ""
+"If you want to move the file, right click > cut then right click > paste."
+msgstr "如果要移动文件，请右键单击 > 剪切，然后右键单击 > 粘贴。"
+
+#: navigator/components/NavEntry.js
+msgid "File name can't be `..`."
+msgstr "文件名不能是“..”。"
+
+#: navigator/components/NavEntry.js
+msgid "Failed to rename."
+msgstr "重命名失败。"
+
+#: navigator/components/NavEntry.js
+msgid "File exists: "
+msgstr "文件已存在："
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Mode"
+msgstr "权限"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Owner"
+msgstr "所有者"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Group"
+msgstr "组"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Size"
+msgstr "大小"
+
+#: navigator/components/NavEntry.js
+msgid "Accessed"
+msgstr "最后访问"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Modified"
+msgstr "修改时间"
+
+#: navigator/components/NavEntry.js navigator/main.js
+msgid "Created"
+msgstr "创建时间"
+
+#: navigator/components/NavFile.js
+msgid "'$0' is not a text file. Open it anyway?"
+msgstr "“$0”不是文本文件。仍然打开吗？"
+
+#: navigator/components/NavFile.js
+msgid "WARNING: this may lead to file corruption."
+msgstr "警告：这可能导致文件损坏。"
+
+#: navigator/components/NavFile.js
+msgid "Editing "
+msgstr "正在编辑 "
+
+#: navigator/components/NavFile.js
+msgid "Link Target"
+msgstr "链接目标"
+
+#: navigator/components/NavFile.js
+msgid "Can't open "
+msgstr "无法打开 "
+
+#: navigator/components/NavFile.js
+msgid " for editing."
+msgstr " 进行编辑。"
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d Directory"
+msgid_plural "%d Directories"
+msgstr[0] "%d 个目录"
+
+#: navigator/components/NavWindow.js
+#, javascript-format
+msgid "%d File"
+msgid_plural "%d Files"
+msgstr[0] "%d 个文件"
+
+#: navigator/components/NavWindow.js
+msgid "selected"
+msgstr "已选择"
+
+#: navigator/components/NavWindow.js
+msgid "and"
+msgstr "和"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing $0 can be dangerous."
+msgstr "警告：编辑 $0 可能很危险。"
+
+#: navigator/components/NavWindow.js
+msgid "Are you sure?"
+msgstr "您确定吗？"
+
+#: navigator/components/NavWindow.js
+msgid "Warning: editing permissions for $0 files."
+msgstr "警告：正在编辑 $0 个文件的权限。"
+
+#: navigator/components/NavWindow.js
+msgid "Applying edits to:"
+msgstr "正在应用更改："
+
+#: navigator/components/NavWindow.js
+msgid "unchanged"
+msgstr "未更改"
+
+#: navigator/components/NavWindow.js
+msgid "Deleting $0 files."
+msgstr "正在删除 $0 个文件。"
+
+#: navigator/components/NavWindow.js
+msgid "Deleting `$0`."
+msgstr "正在删除“$0”。"
+
+#: navigator/components/NavWindow.js
+msgid "This cannot be undone. Are you sure?"
+msgstr "此操作无法撤消。您确定吗？"
+
+#: navigator/components/NavWindow.js
+msgid "Creating Directory"
+msgstr "创建目录"
+
+#: navigator/components/NavWindow.js
+msgid "Name: "
+msgstr "名称："
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't be empty."
+msgstr "目录名不能为空。"
+
+#: navigator/components/NavWindow.js
+msgid "Directory name can't contain `/`."
+msgstr "目录名不能包含“/”。"
+
+#: navigator/components/NavWindow.js
+msgid "Creating File"
+msgstr "创建文件"
+
+#: navigator/components/NavWindow.js
+msgid "File name can't be empty."
+msgstr "文件名不能为空。"
+
+#: navigator/components/NavWindow.js
+msgid "Creating Symbolic Link"
+msgstr "创建符号链接"
+
+#: navigator/components/NavWindow.js
+msgid "Target: "
+msgstr "目标："
+
+#: navigator/components/NavWindow.js
+msgid "Link target can't be empty."
+msgstr "链接目标不能为空。"
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't be empty."
+msgstr "链接名不能为空。"
+
+#: navigator/components/NavWindow.js
+msgid "Link name can't contain `/`."
+msgstr "链接名不能包含“/”。"
+
+#: navigator/components/NavWindow.js
+msgid "Overwrite?"
+msgstr "是否覆盖？"
+
+#: navigator/components/NavWindow.js
+msgid "Paste failed."
+msgstr "粘贴失败。"
+
+#: navigator/components/NavWindow.js
+msgid "Cannot $0 system-critical paths."
+msgstr "无法 $0 系统关键路径。"
+
+#: navigator/components/NavWindow.js
+msgid ""
+"The following path(s) are very dangerous to $0: $1. If you think you need "
+"to, use the terminal."
+msgstr "以下路径对 $0 非常危险：$1。如果您认为有必要，请使用终端。"
+
+#: navigator/main.js
+msgid "Cockpit Navigator $0"
+msgstr "Cockpit Navigator $0"
+
+#: navigator/main.js
+msgid "Created by $0 for Houston UI (Cockpit)."
+msgstr "由 $0 为 Houston UI (Cockpit) 创建。"
+
+#: navigator/main.js
+msgid "Issue Tracker"
+msgstr "问题跟踪"
+
+#: navigator/main.js
+msgid "Feedback"
+msgstr "反馈"
+
+#: navigator/main.js
+msgid "Back"
+msgstr "后退"
+
+#: navigator/main.js
+msgid "Forward"
+msgstr "前进"
+
+#: navigator/main.js
+msgid "Up"
+msgstr "上级"
+
+#: navigator/main.js
+msgid "Refresh"
+msgstr "刷新"
+
+#: navigator/main.js
+msgid "Navigation Bar"
+msgstr "导航栏"
+
+#: navigator/main.js
+msgid "New Directory"
+msgstr "新建目录"
+
+#: navigator/main.js
+msgid "New File"
+msgstr "新建文件"
+
+#: navigator/main.js
+msgid "New Symbolic Link"
+msgstr "新建符号链接"
+
+#: navigator/main.js
+msgid "Upload File(s)"
+msgstr "上传文件"
+
+#: navigator/main.js
+msgid "Save"
+msgstr "保存"
+
+#: navigator/main.js
+msgid "Delete"
+msgstr "删除"
+
+#: navigator/main.js
+msgid "Edit Properties"
+msgstr "编辑属性"
+
+#: navigator/main.js
+msgid "Edit Contents"
+msgstr "编辑内容"
+
+#: navigator/main.js
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: navigator/main.js
+msgid "Prepend * to fuzzy search"
+msgstr "添加 * 进行模糊搜索"
+
+#: navigator/main.js
+msgid "Search in Directory"
+msgstr "在目录中搜索"
+
+#: navigator/main.js
+msgid "Name"
+msgstr "名称"
+
+#: navigator/main.js
+msgid "Read"
+msgstr "读取"
+
+#: navigator/main.js
+msgid "Write"
+msgstr "写入"
+
+#: navigator/main.js
+msgid "Execute"
+msgstr "执行"
+
+#: navigator/main.js
+msgid "Other"
+msgstr "其他"
+
+#: navigator/main.js
+msgid "Show Hidden Files"
+msgstr "显示隐藏文件"
+
+#: navigator/main.js
+msgid "Toggle Dark/Light"
+msgstr "切换深色/浅色"
+
+#: navigator/manifest.json
+msgid "Navigator"
+msgstr "文件浏览器"

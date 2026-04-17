@@ -21,6 +21,7 @@ import { NavEntry } from "./NavEntry.js";
 import { NavFile, NavFileLink } from "./NavFile.js";
 import { NavDir, NavDirLink } from "./NavDir.js";
 import { NavDownloader } from "./NavDownloader.js";
+import { _ } from "../i18n.js";
 
 export class NavContextMenu {
 	/**
@@ -92,8 +93,8 @@ export class NavContextMenu {
 		this.hide();
 		if (this.target.is_dangerous_path()) {
 			await this.nav_window_ref.modal_prompt.alert(
-				"Cannot rename system-critical paths.",
-				"If you think you need to, use the terminal."
+				_("Cannot rename system-critical paths."),
+				_("If you think you need to, use the terminal.")
 			);
 		} else {
 			this.target.show_edit(this.target.dom_element.nav_item_title);

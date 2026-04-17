@@ -24,6 +24,7 @@ import { NavDragDrop } from "./NavDragDrop.js";
 import { SortFunctions } from "./SortFunctions.js";
 import { ModalPrompt } from "./ModalPrompt.js";
 import { format_bytes, format_permissions } from "../functions.js";
+import { _, ngettext } from "../i18n.js";
 
 export class NavWindow {
 	constructor() {
@@ -162,8 +163,8 @@ export class NavWindow {
 		document.getElementById("pwd").value = this.pwd().path_str();
 		this.reset_selection();
 		this.show_selected_properties();
-		document.getElementById("nav-num-dirs").innerText = `${num_dirs} Director${(num_dirs === 1)? "y" : "ies"}`;
-		document.getElementById("nav-num-files").innerText = `${num_files} File${(num_files === 1)? "" : "s"}`;
+		document.getElementById("nav-num-dirs").innerText = ngettext("%d Directory", "%d Directories", num_dirs).replace("%d", num_dirs);
+		document.getElementById("nav-num-files").innerText = ngettext("%d File", "%d Files", num_files).replace("%d", num_files);
 		document.getElementById("nav-num-bytes").innerText = format_bytes(bytes_sum);
 		this.stop_load();
 		this.set_nav_button_state();
@@ -347,7 +348,7 @@ export class NavWindow {
 		if (this.selected_entries.size > 1){
 			var name_fields = document.getElementsByClassName("nav-info-column-filename");
 			for (let name_field of name_fields) {
-				name_field.innerText = this.selected_entries.size.toString() + " selected"
+				name_field.innerText = this.selected_entries.size.toString() + " " + _("selected")
 				name_field.title = name_field.innerText;
 			}
 			document.getElementById("nav-info-column-properties").innerHTML = "";
@@ -369,27 +370,23 @@ export class NavWindow {
 			if (dangerous_selected.length > 2) {
 				var last = dangerous_selected.pop();
 				dangerous_selected_str = dangerous_selected.join(", ");
-				dangerous_selected_str += ", and " + last;
+				dangerous_selected_str += ", " + _("and") + " " + last;
 			} else if (dangerous_selected.length === 2) {
-				dangerous_selected_str = dangerous_selected.join(" and ");
+				dangerous_selected_str = dangerous_selected.join(" " + _("and") + " ");
 			} else {
 				dangerous_selected_str = dangerous_selected[0];
 			}
 			if (!await this.modal_prompt.confirm(
-				"Warning: editing " +
-				dangerous_selected_str +
-				" can be dangerous.",
-				"Are you sure?",
+				cockpit.format(_("Warning: editing $0 can be dangerous."), dangerous_selected_str),
+				_("Are you sure?"),
 				true
 			)) {
 				return;
 			}
 		} else if (this.selected_entries.size > 1) {
 			if (!await this.modal_prompt.confirm(
-				"Warning: editing permissions for " +
-				this.selected_entries.size +
-				" files.",
-				"Are you sure?",
+				cockpit.format(_("Warning: editing permissions for $0 files."), this.selected_entries.size),
+				_("Are you sure?"),
 				true
 			)) {
 				return;
@@ -414,12 +411,12 @@ export class NavWindow {
 				targets.push(target.filename);
 			}
 			var targets_str = targets.join(", ");
-			document.getElementById("selected-files-list-header").innerText = "Applying edits to:";
+			document.getElementById("selected-files-list-header").innerText = _("Applying edits to:");
 			document.getElementById("selected-files-list").innerText = targets_str;
 		}
 		this.update_permissions_preview();
 		this.changed_mode = false;
-		document.getElementById("nav-mode-preview").innerText = "unchanged";
+		document.getElementById("nav-mode-preview").innerText = _("unchanged");
 		document.getElementById("nav-edit-properties").style.display = "flex";
 		document.getElementById("nav-show-properties").style.display = "none";
 		this.editing_permissions = true;
@@ -491,11 +488,11 @@ export class NavWindow {
 			return;
 		var prompt = "";
 		if (this.selected_entries.size > 1) {
-			prompt = "Deleting " + this.selected_entries.size + " files.";
+			prompt = cockpit.format(_("Deleting $0 files."), this.selected_entries.size);
 		} else {
-			prompt = "Deleting `" + this.selected_entry().path_str() + "`.";
+			prompt = cockpit.format(_("Deleting `$0`."), this.selected_entry().path_str());
 		}
-		if (!await this.modal_prompt.confirm(prompt, "This cannot be undone. Are you sure?", true)) {
+		if (!await this.modal_prompt.confirm(prompt, _("This cannot be undone. Are you sure?"), true)) {
 			return;
 		}
 		this.start_load();
@@ -511,10 +508,10 @@ export class NavWindow {
 	}
 
 	async mkdir() {
-		let response = await this.modal_prompt.prompt("Creating Directory",
+		let response = await this.modal_prompt.prompt(_("Creating Directory"),
 			{
 				new_name: {
-					label: "Name: ",
+					label: _("Name: "),
 					type: "text"
 				}
 			}
@@ -523,11 +520,11 @@ export class NavWindow {
 			return;
 		var new_dir_name = response.new_name;
 		if (new_dir_name === "") {
-			this.modal_prompt.alert("Directory name can't be empty.");
+			this.modal_prompt.alert(_("Directory name can't be empty."));
 			return;
 		}
 		if (new_dir_name.includes("/")) {
-			this.modal_prompt.alert("Directory name can't contain `/`.");
+			this.modal_prompt.alert(_("Directory name can't contain `/`."));;
 			return;
 		}
 		var promise = new Promise((resolve, reject) => {
@@ -551,10 +548,10 @@ export class NavWindow {
 	}
 
 	async touch() {
-		let response = await this.modal_prompt.prompt("Creating File",
+		let response = await this.modal_prompt.prompt(_("Creating File"),
 			{
 				new_name: {
-					label: "Name: ",
+					label: _("Name: "),
 					type: "text"
 				}
 			}
@@ -563,11 +560,11 @@ export class NavWindow {
 			return;
 		var new_file_name = response.new_name;
 		if (new_file_name === "") {
-			this.modal_prompt.alert("File name can't be empty.");
+			this.modal_prompt.alert(_("File name can't be empty."));
 			return;
 		}
 		if (new_file_name.includes("/")) {
-			this.modal_prompt.alert("File name can't contain `/`.");
+			this.modal_prompt.alert(_("File name can't contain `/`."));;
 			return;
 		}
 		var promise = new Promise((resolve, reject) => {
@@ -591,15 +588,15 @@ export class NavWindow {
 	}
 
 	async ln(default_target = "") {
-		let response = await this.modal_prompt.prompt("Creating Symbolic Link",
+		let response = await this.modal_prompt.prompt(_("Creating Symbolic Link"),
 			{
 				target: {
-					label: "Target: ",
+					label: _("Target: "),
 					type: "text",
 					default: default_target
 				},
 				name: {
-					label: "Name: ",
+					label: _("Name: "),
 					type: "text"
 				}
 			}
@@ -608,16 +605,16 @@ export class NavWindow {
 			return;
 		var link_target = response.target;
 		if (link_target === "") {
-			this.modal_prompt.alert("Link target can't be empty.");
+			this.modal_prompt.alert(_("Link target can't be empty."));
 			return;
 		}
 		var link_name = response.name;
 		if (link_name === "") {
-			this.modal_prompt.alert("Link name can't be empty.");
+			this.modal_prompt.alert(_("Link name can't be empty."));
 			return;
 		}
 		if (link_name.includes("/")) {
-			this.modal_prompt.alert("Link name can't contain `/`.");
+			this.modal_prompt.alert(_("Link name can't contain `/`."));;
 			return;
 		}
 		var link_path = this.pwd().path_str() + "/" + link_name;
@@ -693,7 +690,7 @@ export class NavWindow {
 							}
 						}
 						this.stop_load();
-						let responses = await this.modal_prompt.prompt("Overwrite?", requests);
+						let responses = await this.modal_prompt.prompt(_("Overwrite?"), requests);
 						this.start_load();
 						if (responses === null) {
 							proc.input(JSON.stringify("abort") + "\n");
@@ -717,7 +714,7 @@ export class NavWindow {
 				resolve();
 			});
 			proc.fail((e, data) => {
-				reject("Paste failed.");
+				reject(_("Paste failed."));
 			});
 		});
 		try {
@@ -953,8 +950,8 @@ export class NavWindow {
 			}
 			if (dangerous_selected.length) {
 				await this.modal_prompt.alert(
-					`Cannot ${verb} system-critical paths.`,
-					`The following path(s) are very dangerous to ${verb}: ${dangerous_selected.join(", ")}. If you think you need to ${verb} them, use the terminal.`
+					cockpit.format(_("Cannot $0 system-critical paths."), verb),
+					cockpit.format(_("The following path(s) are very dangerous to $0: $1. If you think you need to, use the terminal."), verb, dangerous_selected.join(", "))
 				);
 				resolve(true);
 			} else {

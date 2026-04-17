@@ -19,6 +19,7 @@
 
 import { NavWindow } from "./NavWindow.js";
 import { format_bytes, property_entry_html, format_time, check_if_exists } from "../functions.js";
+import { _ } from "../i18n.js";
 
 export class NavEntry {
 	/**
@@ -282,22 +283,22 @@ export class NavEntry {
 			return;
 		if (new_name.includes("/")) {
 			this.nav_window_ref.modal_prompt.alert(
-				"File name can't contain `/`.",
-				"If you want to move the file, right click > cut then right click > paste."
+				_("File name can't contain `/`."),
+				_("If you want to move the file, right click > cut then right click > paste.")
 			);
 			return;
 		} else if (new_name === "..") {
 			this.nav_window_ref.modal_prompt.alert(
-				"File name can't be `..`.",
-				"If you want to move the file, right click > cut then right click > paste."
+				_("File name can't be `..`."),
+				_("If you want to move the file, right click > cut then right click > paste.")
 			);
 			return;
 		}
 		let new_path = [this.nav_window_ref.pwd().path_str(), new_name].join("/");
 		if (await check_if_exists(new_path)) {
 			this.nav_window_ref.modal_prompt.alert(
-				"Failed to rename.",
-				"File exists: " + new_path
+				_("Failed to rename."),
+				_("File exists: ") + new_path
 			);
 			return;
 		}
@@ -378,13 +379,13 @@ export class NavEntry {
 			elem.title = this.filename;
 		}
 		var html = "";
-		html += property_entry_html("Mode", this.stat["mode-str"]);
-		html += property_entry_html("Owner", this.stat["owner"] + " (" + this.stat["uid"] + ")");
-		html += property_entry_html("Group", this.stat["group"] + " (" + this.stat["gid"] + ")");
-		html += property_entry_html("Size", format_bytes(this.stat["size"]));
-		html += property_entry_html("Accessed", format_time(this.stat["atime"]));
-		html += property_entry_html("Modified", format_time(this.stat["mtime"]));
-		html += property_entry_html("Created", format_time(this.stat["ctime"]));
+		html += property_entry_html(_("Mode"), this.stat["mode-str"]);
+		html += property_entry_html(_("Owner"), this.stat["owner"] + " (" + this.stat["uid"] + ")");
+		html += property_entry_html(_("Group"), this.stat["group"] + " (" + this.stat["gid"] + ")");
+		html += property_entry_html(_("Size"), format_bytes(this.stat["size"]));
+		html += property_entry_html(_("Accessed"), format_time(this.stat["atime"]));
+		html += property_entry_html(_("Modified"), format_time(this.stat["mtime"]));
+		html += property_entry_html(_("Created"), format_time(this.stat["ctime"]));
 		html += extra_properties;
 		document.getElementById("nav-info-column-properties").innerHTML = html;
 	}
